@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz>
+	<Name value="TongoMod_Moddlet_5_Slot_Crafting_Queue"/>
+	<DisplayName value="TongoMod 3.4" />
+	<Description value="1 slot more (Total 5) in queue for crafting or scrap in TongoMod"/>
+	<Author value="Tekja" />
+	<Version value="3.4" />
+	<Website value=" " />
+	<SkipWithAntiCheat value="false" />
+</raiz>
