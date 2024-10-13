@@ -1,0 +1,480 @@
+<configs>
+
+<!-- MODELOS -->
+	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='HoldType']/@value">3</set>
+	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='Meshfile']/@value">@:Other/Items/Crafting/candy_tinPrefab.prefab</set>
+	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='DropMeshfile']/@value">@:Other/Items/Crafting/candy_tinPrefab.prefab</set>
+	
+	<set xpath="/items/item[@name='foodHoney']/property[@name='HoldType']/@value">3</set>
+	<set xpath="/items/item[@name='foodHoney']/property[@name='Meshfile']/@value">@:Other/Items/Food/honeyPrefab.prefab</set>
+	<set xpath="/items/item[@name='foodHoney']/property[@name='DropMeshfile']/@value">@:Other/Items/Food/honeyPrefab.prefab</set>
+	
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='HoldType']/@value">3</set>
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Meshfile']/@value">@:Other/Items/Food/can_beefPrefab.prefab</set>
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='DropMeshfile']/@value">@:Other/Items/Food/can_beefPrefab.prefab</set>	
+	
+	<append xpath="/items/item[@name='foodCanChicken']">
+		<property name="HoldType" value="3"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_chickenPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_chickenPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanLamb']">
+		<property name="HoldType" value="3"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_lambPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_lambPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanCatfood']">
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_catfoodPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_catfoodPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanDogfood']">
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_dogfoodPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_dogfoodPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanChili']">
+		<property name="HoldType" value="3"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_chiliPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_chiliPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanTuna']">
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_tunaPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_tunaPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanSham']">
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_hamPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_hamPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanPasta']">
+		<property name="HoldType" value="16"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_pastaPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_pastaPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanSalmon']">
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_salmonPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_salmonPrefab.prefab"/>
+	</append>
+	
+	<append xpath="/items/item[@name='foodCanMiso']">
+		<property name="HoldType" value="16"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/can_misoPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_misoPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCanPeas']">		
+		<property name="HoldType" value="16"/>
+		<property name="Meshfile" value="@:Other/Items/Food/can_peasPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_peasPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCanPears']">		
+		<property name="HoldType" value="16"/>
+		<property name="Meshfile" value="@:Other/Items/Food/can_pearsPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_pearsPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCanSoup']">		
+		<property name="HoldType" value="16"/>
+		<property name="Meshfile" value="@:Other/Items/Food/can_soupPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_soupPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCanStock']">		
+		<property name="HoldType" value="16"/>
+		<property name="Meshfile" value="@:Other/Items/Food/can_stockPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/can_stockPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCornOnTheCob']">		
+		<property name="HoldType" value="16"/>
+		<property name="Meshfile" value="@:Other/Items/Food/corn_cooked.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/corn_cooked.fbx"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCornBread']">		
+		<property name="HoldType" value="31"/>
+		<property name="Meshfile" value="@:Other/Items/Food/moldyBreadHandPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/moldyBreadHandPrefab.prefab"/>		
+	</append>
+	
+	<append xpath="items/item[@name='foodCharredMeat']">		
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/meat_pork_cooked.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/meat_pork_cooked.fbx"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodGrilledMeat']">		
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/meat_pork_cooked.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/meat_pork_cooked.fbx"/>
+	</append>	
+	
+	<append xpath="items/item[@name='foodBoiledMeat']">		
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/meat_pork.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/meat_pork.fbx"/>
+	</append>
+
+	<append xpath="items/item[@name='foodBakedPotato']">	
+		<property name="HoldType" value="31"/>		
+		<property name="Meshfile" value="@:Other/Items/Food/vegetable_potato_bakedPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/vegetable_potato_bakedPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodBlueberryPie']">		
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Blueberry" prefab="@:Other/Items/Food/fruit_blueberryPrefab.prefab" parentTransform="RightHand" localPos="0.125,0.058,0.003" localRot="0,0,0"/>			
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Blueberry"/>
+		</effect_group>				
+	</append>
+	
+	<append xpath="items/item[@name='foodPumpkinPie']">	
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<property name="TintColor" value="71,45,23"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodPumpkinCheesecake']">	
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/blueberry_piePrefab.prefab"/>
+		<property name="TintColor" value="255,255,155"/>			
+	</append>
+	
+	<append xpath="items/item[@name='foodPumpkinBread']">	
+		<property name="HoldType" value="31"/>
+		<property name="Meshfile" value="@:Other/Items/Food/moldyBreadHandPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/moldyBreadHandPrefab.prefab"/>
+		<property name="TintColor" value="148,87,58"/>		
+	</append>
+	
+	<append xpath="items/item[@name='foodShepardsPie']">	
+		<property name="HoldType" value="23"/>
+		<property name="Meshfile" value="@:Other/Items/Food/venison_stewPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/venison_stewPrefab.prefab"/>
+		<property name="TintColor" value="205,255,205"/>		
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="PotatoMashed" prefab="@:Other/Items/Food/vegetable_potato_bakedPrefab.prefab" parentTransform="RightHand" localPos="0.155,0.04,0.005" localRot="0,0,0"/>			
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="PotatoMashed"/>
+		</effect_group>					
+	</append>
+	
+	<append xpath="items/item[@name='foodEggBoiled']">		
+		<property name="Meshfile" value="@:Other/Items/Food/eggPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/eggPrefab.prefab"/>
+		<property name="TintColor" value="255,255,225"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodRawMeat']">	
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Misc/raw_meatPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/raw_meatPrefab.prefab"/>
+		<property name="TintColor" value="255,182,193"/>		
+	</append>
+	
+	<append xpath="items/item[@name='foodRottingFlesh']">		
+		<property name="HoldType" value="23"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/meat_rabbit.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/meat_rabbit.fbx"/>
+		<property name="TintColor" value="95,110,80"/>	
+	</append>
+	
+	<append xpath="items/item[@name='foodEgg']">		
+		<property name="Meshfile" value="@:Other/Items/Food/eggPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/eggPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCornMeal']">		
+		<property name="Meshfile" value="@:Other/Items/Food/cornmealPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/cornmealPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCropBlueberries']">		
+		<property name="HoldType" value="31"/>	
+		<property name="Meshfile" value="@:Other/Items/Food/fruit_blueberryPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/fruit_blueberryPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCropCorn']">	
+		<property name="HoldType" value="16"/>		
+		<property name="Meshfile" value="@:Other/Items/Food/vegetable_cornPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/vegetable_cornPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCropGraceCorn']">		
+		<property name="HoldType" value="16"/>		
+		<property name="Meshfile" value="@:Other/Items/Food/vegetable_cornPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/vegetable_cornPrefab.prefab"/>
+		<property name="TintColor" value="255,140,0"/>	
+	</append>
+	
+	<append xpath="items/item[@name='foodCropPotato']">	
+		<property name="HoldType" value="31"/>		
+		<property name="Meshfile" value="@:Other/Items/Food/vegetable_potatoPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/vegetable_potatoPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCropYuccaFruit']">	
+		<property name="HoldType" value="16"/>		
+		<property name="Meshfile" value="@:Other/Items/Food/fruit_yucca.fbx"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/fruit_yucca.fbx"/>
+	</append>
+	
+	<append xpath="items/item[@name='foodCropPumpkin']">		
+		<property name="Meshfile" value="@:Other/Items/Food/seed_cornPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/seed_cornPrefab.prefab"/>
+		<property name="TintColor" value="255,165,0"/>		
+	</append>
+	
+	<append xpath="items/item[@name='drinkJarRiverWater']">		
+		<property name="Meshfile" value="@:Other/Items/Food/bottledRiverWaterPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/bottledRiverWaterPrefab.prefab"/>
+		<property name="TintColor" value="155,155,155"/>	
+	</append>
+	
+	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Meshfile']/@value">@:Other/Items/Food/redTeaPrefab.prefab</set>
+	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='DropMeshfile']/@value">@:Other/Items/Food/redTeaPrefab.prefab</set>
+	
+	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Meshfile']/@value">@:Other/Items/Food/coffeePrefab.prefab</set>
+	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='DropMeshfile']/@value">@:Other/Items/Food/coffeePrefab.prefab</set>
+	
+	<append xpath="items/item[@name='drinkJarYuccaJuice']">		
+		<property name="Meshfile" value="@:Other/Items/Food/yucca_juicePrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/yucca_juicePrefab.prefab"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="YuccaJuice" prefab="@:Other/Items/Food/fruit_yucca.fbx" parentTransform="RightHand" localPos="0.1,0.065,-0.02" localRot="-100,0,0"/>			
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="YuccaJuice"/>
+		</effect_group>	
+	</append>
+	
+	<append xpath="items/item[@name='drinkJarGoldenRodTea']">		
+		<property name="Meshfile" value="@:Other/Items/Food/goldenrod_teaPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/goldenrod_teaPrefab.prefab"/>
+	</append>
+	
+	<append xpath="items/item[@name='drinkYuccaJuiceSmoothie']">		
+		<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+		<property name="TintColor" value="0,205,205"/>	
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="YuccaSmoothie" prefab="@:Other/Items/Food/fruit_yucca.fbx" parentTransform="RightHand" localPos="0.1,0.065,-0.02" localRot="-100,0,0"/>			
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="YuccaSmoothie"/>
+		</effect_group>	
+	</append>
+	
+	<append xpath="items/item[@name='drinkJarBeer']">		
+		<property name="Meshfile" value="@:Other/Items/Food/bottledBeerPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Food/bottledBeerPrefab.prefab"/>
+		<property name="TintColor" value="165,165,165"/>	
+	</append>
+
+	<set xpath="/items/item[@name='partsMaster']/property[@name='Group']/@value">Parts</set>
+	
+	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieShort']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieShortFeral']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutated']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutatedFeral']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutatedRadiated']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	
+	<!-- MODS SLOTS -->
+	<!-- *** LIGHT_ARMORS -->
+	<set xpath="items/item[starts-with(@name, 'armorLumberjack')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>	
+	<set xpath="items/item[starts-with(@name, 'armorPreacher')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorRogue')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorAthletic')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorEnforcer')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	
+	<!-- *** MEDIUM_ARMORS -->
+	<set xpath="items/item[starts-with(@name, 'armorFarmer')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorBiker')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorScavenger')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorRanger')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorCommando')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorAssassin')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	
+	<!-- *** HEAVY_ARMORS -->
+	<set xpath="items/item[starts-with(@name, 'armorMiner')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorNomad')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorNerd')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	<set xpath="items/item[starts-with(@name, 'armorRaider')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	
+	<set xpath="items/item[starts-with(@name, 'gunBot')]/effect_group/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	
+	<set xpath="items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='gunExplosivesT3RocketLauncher']/effect_group[@name='gunExplosivesT3RocketLauncher']/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+	
+	<set xpath="items/item[@name='gunHandgunT3DesertVulture']/effect_group[@name='gunHandgunT3DesertVulture']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	<set xpath="items/item[@name='gunHandgunT3SMG5']/effect_group[@name='gunHandgunT3SMG5']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='gunMGT3M60']/effect_group[@name='gunMGT3M60']/passive_effect[@name='ModSlots']/@value">4,4,4,4,5,6</set>
+	
+	<set xpath="items/item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='ModSlots']/@value">4,4,4,4,5,6</set>
+	
+	<set xpath="items/item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='ModSlots']/@value">4,4,4,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeToolAxeT2SteelAxe']/effect_group[@name='meleeToolAxeT2SteelAxe']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>	
+	<set xpath="items/item[@name='meleeToolPickT2SteelPickaxe']/effect_group[@name='meleeToolPickT2SteelPickaxe']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='ModSlots']/@value">4,4,4,4,5,6</set>
+	<set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='ModSlots']/@value">4,4,4,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeToolRepairT3Nailgun']/effect_group[@name='meleeToolRepairT3Nailgun']/passive_effect[@name='ModSlots']/@value">1,1,2,2,5,6</set>
+
+	<set xpath="items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeToolShovelT2SteelShovel']/effect_group[@name='meleeToolShovelT2SteelShovel']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='ModSlots']/@value">2,2,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='meleeWpnBladeT3Machete']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+
+	<set xpath="items/item[@name='meleeWpnClubT3SteelClub']/effect_group[@name='meleeWpnClubT3SteelClub']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/effect_group[@name='meleeWpnKnucklesT3SteelKnuckles']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/effect_group[@name='meleeWpnSledgeT3SteelSledgehammer']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='ModSlots']/@value">3,3,3,4,5,6</set>
+	
+	<set xpath="items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">vehicle,vlight,canHaveCosmetic,bicycle</set>	
+	<set xpath="items/item[@name='vehicleMotorcyclePlaceable']/effect_group[@name='vehicleMotorcyclePlaceable']/passive_effect[@name='ModSlots']/@value">5</set>
+	<set xpath="items/item[@name='vehicleMinibikePlaceable']/effect_group[@name='vehicleMinibikePlaceable']/passive_effect[@name='ModSlots']/@value">4</set>
+	<set xpath="items/item[@name='vehicleTruck4x4Placeable']/effect_group[@name='main']/passive_effect[@name='ModSlots']/@value">6</set>
+	<set xpath="items/item[@name='vehicleGyrocopterPlaceable']/effect_group[@name='vehicleGyrocopterPlaceable']/passive_effect[@name='ModSlots']/@value">5</set>
+	
+	<append xpath="/items">
+	
+		<!-- SCHEMATIC --> 
+		<item name="modTMHelmetLightSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modTMHelmetLight"/>
+			<property name="Unlocks" value="modTMHelmetLight"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modTMHelmetLight" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="modTMVehicleOffRoadHeadlightsHDSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modTMVehicleOffRoadHeadlightsHD"/>
+			<property name="Unlocks" value="modTMVehicleOffRoadHeadlightsHD"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modTMVehicleOffRoadHeadlightsHD" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="modTMGunMeleeNiCdBatterySchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modTMGunMeleeNiCdBattery"/>
+			<property name="Unlocks" value="modTMGunMeleeNiCdBattery"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modTMGunMeleeNiCdBattery" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="modTMBulletFireSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modTMBulletFire"/>
+			<property name="Unlocks" value="modTMBulletFire"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modTMBulletFire" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="meleeAnimalZombieVultureElite">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action0">
+				<property name="Delay" value=".7"/>
+				<!-- obsolete if rounds per minute exists -->
+				<property name="DamageEntity" value="8"/>
+				<property name="DamageBlock" value="8"/>
+				<property name="Buff" value="buffInjuryBleedingZombie,buffInfectionCatch"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Vomit"/>
+				<!--property name="Hitmask_override" value="Arrow"/-->
+				<property name="Delay" value=".5"/>
+				<property name="Infinite_ammo" value="true"/>
+				<property name="Magazine_items" value="ammoAnimalZombieVultureElite"/>
+				<property name="Sound_warning" value=""/>
+				<property name="Sound_start" value=""/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value=""/>
+				<property name="Sound_reload" value=""/>
+				<property name="Buff" value="buffShocked"/>
+			</property>
+				
+			<effect_group name="meleeHandanimalZombieVulturePLUS" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>  A16 .7,  50=1.2 -->
+				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="4"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+				<passive_effect name="MaxRange" operation="base_set" value="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="ammoAnimalZombieVultureElite">
+			<property name="Meshfile" value="particleeffects/p_electric_shock_small"/>
+			<property name="Material" value="Morganic"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="12"/>
+				<property name="Explosion.ParticleIndex" value="12"/>
+				<property name="Explosion.RadiusEntities" value="2"/> <!-- damage radius for entities -->
+				<property name="Velocity" value="13"/>
+				<property name="FlyTime" value="6"/>
+				<property name="LifeTime" value="8"/>
+				<property name="CollisionRadius" value=".5"/>
+				<property name="Buff" value="buffShocked"/>
+			</property>
+			<effect_group name="ammoProjectileanimalZombieVulturePLUS" tiered="false">
+				<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value="0.90" tags="buffShocked"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="60"/><!--InfectionRadiated-->
+			</effect_group>
+		</item>
+		
+	</append>
+	
+</configs>
