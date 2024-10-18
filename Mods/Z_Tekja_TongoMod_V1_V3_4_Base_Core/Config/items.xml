@@ -4474,7 +4474,7 @@
 					<requirement name="HasBuff" buff="buffInjuryAbrasion"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="20"/>
 
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medRegHealthIncSpeed" operation="set" value="@medicRegHealthIncreaseSpeed"/>
 				<display_value name="foodHealthAmount" value="30"/>
@@ -4482,23 +4482,23 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/>
 				<display_value name="dStopsBleeding" value="1"/>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="12">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="30">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="0"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="15">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="40">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="18">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="50">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="21">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="70">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="30">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="100">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
 				</triggered_effect>
 
