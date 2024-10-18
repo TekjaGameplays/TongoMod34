@@ -322,6 +322,7 @@
 	
 	
 	<!-- BURN -->	
+	<!--
 	<csv xpath="/entitygroups/entitygroup[@name='zombieBurntGroupGS100']/text()" delim="\n" op="add" > 
 		zombieBurntIrradiationElite, .20
 		zombieBurntElectricElite, .20
@@ -345,7 +346,7 @@
 		zombieBurntElectricElite, .20
 		zombieBurntFireElite, .20
 	</csv>
-	
+	-->
 	
 	<!-- MUTATED -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieFeralRadiatedGroup']/text()" delim="\n" op="add" > 
@@ -376,6 +377,7 @@
 	
 	
 	<!-- LUMBERJACK -->
+	<!--
 	<csv xpath="/entitygroups/entitygroup[@name='zombieLumberjackGroupGS100']/text()" delim="\n" op="add" > 
 		zombieLumberjackIrradiationElite, .20
 		zombieLumberjackElectricElite, .20
@@ -399,6 +401,7 @@
 		zombieLumberjackElectricElite, .20
 		zombieLumberjackFireElite, .20
 	</csv>
+	-->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieFeralRadiatedGroup']/text()" delim="\n" op="add" > 
 		zombieLumberjackIrradiationElite, .20
