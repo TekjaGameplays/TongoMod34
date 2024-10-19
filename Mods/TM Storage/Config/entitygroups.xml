@@ -268,38 +268,38 @@
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" > 
-		zombieArleneIrradiationComand, .20
-		zombieArleneElectricComand, .20
-		zombieArleneFireComand, .20
-		zombieMutatedIrradiationElite, .20
-		zombieMutatedElectricElite, .20
-		zombieMutatedFireElite, .20
-		zombieWightIrradiationElite, .20
-		zombieWightElectricElite, .
+		zombieArleneIrradiationComand, 20
+		zombieArleneElectricComand, 20
+		zombieArleneFireComand, 20
+		zombieMutatedIrradiationElite, 20
+		zombieMutatedElectricElite, 20
+		zombieMutatedFireElite, 20
+		zombieWightIrradiationElite, 20
+		zombieWightElectricElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" > 
-		zombieArleneIrradiationComand, .20
-		zombieArleneElectricComand, .20
-		zombieArleneFireComand, .20
-		zombieMutatedIrradiationElite, .20
-		zombieMutatedElectricElite, .20
-		zombieMutatedFireElite, .20
-		zombieWightIrradiationElite, .20
-		zombieWightElectricElite, .20
-		zombieWightFireElite, .20
+		zombieArleneIrradiationComand, 20
+		zombieArleneElectricComand, 20
+		zombieArleneFireComand, 20
+		zombieMutatedIrradiationElite, 20
+		zombieMutatedElectricElite, 20
+		zombieMutatedFireElite, 20
+		zombieWightIrradiationElite, 20
+		zombieWightElectricElite, 20
+		zombieWightFireElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']/text()" delim="\n" op="add" > 
-		zombieArleneIrradiationComand, .20
-		zombieArleneElectricComand, .20
-		zombieArleneFireComand, .20
-		zombieMutatedIrradiationElite, .20
-		zombieMutatedElectricElite, .20
-		zombieMutatedFireElite, .20
-		zombieWightIrradiationElite, .20
-		zombieWightElectricElite, .20
-		zombieWightFireElite, .20
+		zombieArleneIrradiationComand, 20
+		zombieArleneElectricComand, 20
+		zombieArleneFireComand, 20
+		zombieMutatedIrradiationElite, 20
+		zombieMutatedElectricElite, 20
+		zombieMutatedFireElite, 20
+		zombieWightIrradiationElite, 20
+		zombieWightElectricElite, 20
+		zombieWightFireElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='SnowZombies']/text()" delim="\n" op="add" > 
@@ -312,111 +312,57 @@
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" > 
-		zombieArleneIrradiationComand, .20
-		zombieArleneElectricComand, .20
-		zombieArleneFireComand, .20
-		zombieBurntIrradiationElite, .20
-		zombieBurntElectricElite, .20
-		zombieBurntFireElite, .20
+		zombieArleneIrradiationComand, 20
+		zombieArleneElectricComand, 20
+		zombieArleneFireComand, 20
+		zombieBurntIrradiationElite, 20
+		zombieBurntElectricElite, 20
+		zombieBurntFireElite, 20
 	</csv>
-	
-	
-	<!-- BURN -->	
-	<!--
-	<csv xpath="/entitygroups/entitygroup[@name='zombieBurntGroupGS100']/text()" delim="\n" op="add" > 
-		zombieBurntIrradiationElite, .20
-		zombieBurntElectricElite, .20
-		zombieBurntFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieBurntGroupGS200']/text()" delim="\n" op="add" > 
-		zombieBurntIrradiationElite, .20
-		zombieBurntElectricElite, .20
-		zombieBurntFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieBurntGroupGS400']/text()" delim="\n" op="add" > 
-		zombieBurntIrradiationElite, .20
-		zombieBurntElectricElite, .20
-		zombieBurntFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieBurntGroupGS800']/text()" delim="\n" op="add" > 
-		zombieBurntIrradiationElite, .20
-		zombieBurntElectricElite, .20
-		zombieBurntFireElite, .20
-	</csv>
-	-->
 	
 	<!-- MUTATED -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieFeralRadiatedGroup']/text()" delim="\n" op="add" > 
-		zombieMutatedIrradiationElite, .20
-		zombieMutatedElectricElite, .20
-		zombieMutatedFireElite, .20
+		zombieMutatedIrradiationElite, 20
+		zombieMutatedElectricElite, 20
+		zombieMutatedFireElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieBadassGroup']/text()" delim="\n" op="add" > 
-		zombieMutatedIrradiationElite, .20
-		zombieMutatedElectricElite, .20
-		zombieMutatedFireElite, .20
+		zombieMutatedIrradiationElite, 20
+		zombieMutatedElectricElite, 20
+		zombieMutatedFireElite, 20
 	</csv>
 	
 	
 	<!-- WIGHT -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieFeralRadiatedGroup']/text()" delim="\n" op="add" > 
-		zombieWightIrradiationElite, .20
-		zombieWightElectricElite, .20
-		zombieWightFireElite, .20
+		zombieWightIrradiationElite, 20
+		zombieWightElectricElite, 20
+		zombieWightFireElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieBadassGroup']/text()" delim="\n" op="add" > 
-		zombieWightIrradiationElite, .20
-		zombieWightElectricElite, .20
-		zombieWightFireElite, .20
+		zombieWightIrradiationElite, 20
+		zombieWightElectricElite, 20
+		zombieWightFireElite, 20
 	</csv>
 	
 	
-	<!-- LUMBERJACK -->
-	<!--
-	<csv xpath="/entitygroups/entitygroup[@name='zombieLumberjackGroupGS100']/text()" delim="\n" op="add" > 
-		zombieLumberjackIrradiationElite, .20
-		zombieLumberjackElectricElite, .20
-		zombieLumberjackFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieLumberjackGroupGS200']/text()" delim="\n" op="add" > 
-		zombieLumberjackIrradiationElite, .20
-		zombieLumberjackElectricElite, .20
-		zombieLumberjackFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieLumberjackGroupGS400']/text()" delim="\n" op="add" > 
-		zombieLumberjackIrradiationElite, .20
-		zombieLumberjackElectricElite, .20
-		zombieLumberjackFireElite, .20
-	</csv>
-	
-	<csv xpath="/entitygroups/entitygroup[@name='zombieLumberjackGroupGS800']/text()" delim="\n" op="add" > 
-		zombieLumberjackIrradiationElite, .20
-		zombieLumberjackElectricElite, .20
-		zombieLumberjackFireElite, .20
-	</csv>
-	-->
-	
+	<!-- LUMBERJACK -->	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombieFeralRadiatedGroup']/text()" delim="\n" op="add" > 
-		zombieLumberjackIrradiationElite, .20
-		zombieLumberjackElectricElite, .20
-		zombieLumberjackFireElite, .20
+		zombieLumberjackIrradiationElite, 20
+		zombieLumberjackElectricElite, 20
+		zombieLumberjackFireElite, 20
 	</csv>
 	
 	
 	<!-- VULTURE -->
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" > 
-		animalZombieVultureElite, .20
+		animalZombieVultureElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']/text()" delim="\n" op="add" > 
-		animalZombieVultureElite, .20
+		animalZombieVultureElite, 20
 	</csv>
 	
 	<append xpath="/entitygroups">

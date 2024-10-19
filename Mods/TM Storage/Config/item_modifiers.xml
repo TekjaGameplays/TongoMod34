@@ -28,7 +28,7 @@
 			<property name="EconomicValue" value="5000"/>
 			<property name="Group" value="Mods"/>
 			<effect_group tiered="false">
-				<passive_effect name="LightIntensity" operation="perc_set" value="10"/>
+				<passive_effect name="LightIntensity" operation="perc_set" value="3.5"/>
 			</effect_group>
 		</item_modifier>
 		
