@@ -1,0 +1,78 @@
+<configs>
+	
+	<!--
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group">
+	
+		<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buffARHordeNightRewardCompleteText" />
+		<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buffARIsMorning" />
+		<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buffARIsHordeNight" />
+
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffARIsMorning">
+			<requirement name="!HasBuff" buff="buffARIsMorning"/>
+			<requirement name="IsDay"/>
+			<requirement name="HasBuff" buff="buffARIsHordeNight"/>
+		</triggered_effect>
+		
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffARIsHordeNight">
+			<requirement name="!HasBuff" buff="buffARIsHordeNight"/>
+			<requirement name="IsNight"/>
+			<requirement name="IsBloodMoon"/>
+			<requirement name="!HasBuff" buff="buffNearDeathTrauma"/>
+		</triggered_effect>
+		
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffARIsHordeNight">
+			<requirement name="IsDay"/>
+			<requirement name="HasBuff" buff="buffARIsHordeNight"/>
+		</triggered_effect>
+		
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffARIsHordeNight">
+			<requirement name="HasBuff" buff="buffNearDeathTrauma"/>
+			<requirement name="HasBuff" buff="buffARIsHordeNight"/>
+		</triggered_effect>
+
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffARHordeNightRewardCompleteText">
+			<requirement name="IsDay"/>
+			<requirement name="HasBuff" buff="buffARIsMorning"/>
+		</triggered_effect>
+
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffARIsMorning" />
+		
+	</append>
+
+	<append xpath="/buffs">
+	
+		<buff name="buffARIsMorning" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+		</buff>
+		
+		<buff name="buffARIsHordeNight" name_key="buffARHordeNightRewardName" description_key="buffARHordeNightRewardDesc" tooltip_key="buffARHordeNightRewardTooltip" icon="ui_game_symbol_treasure" icon_color="255,165,0" remove_on_death="true" icon_blink="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="1"/>
+			<effect_group />
+		</buff>
+		
+		<buff name="buffARHordeNightRewardCompleteText" name_key="buffARHordeNightRewardCompleteName" tooltip_key="buffARHordeNightRewardCompleteTooltip" description_key="buffARHordeNightRewardCompleteDesc" icon="ui_game_symbol_treasure" icon_color="0,128,0">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="twitch_celebrate" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARGiveHordeNightReward" />
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffARGiveHordeNightReward" />
+			</effect_group>
+		</buff>
+		
+		<buff name="buffARGiveHordeNightReward" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="2"/>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARHordeNightRewardCompleteText" />				
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="BloodmoonHordeReward" />				
+			</effect_group>
+		</buff>
+	
+	</append>-->
+</configs>
