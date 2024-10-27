@@ -2060,14 +2060,14 @@
 		</recipe>
 
 		<!-- * QUIMICS -->
-		<recipe name="medicalAlcoholTM" count="1" craft_time="10" craft_area="MKOven" tags="learnable,oven" craft_tool="toolBeaker">
-			<ingredient name="drinkJarBoiledWater" count="1"/>
-			<ingredient name="foodCropPotato" count="1"/>
+		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="oven" craft_tool="toolBeaker">
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="foodCropPotato" count="2"/>
 		</recipe>
 
-		<recipe name="medicalAlcoholTM" count="1" craft_time="10" craft_area="MKOven" tags="learnable,oven" craft_tool="toolBeaker">
-			<ingredient name="drinkJarBoiledWater" count="1"/>
-			<ingredient name="foodCropCorn" count="1"/>
+		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="oven" craft_tool="toolBeaker">
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="foodCropCorn" count="2"/>
 		</recipe>
 
 		<recipe name="resourceTallowTM" count="1" craft_time="10" craft_area="MKOven" tags="oven" craft_tool="toolCookingPot">
@@ -2140,8 +2140,8 @@
 		</recipe>
 
 		<recipe name="medicalAlcoholTM" count="1" craft_time="10" craft_area="MKOchemi" tags="learnable,perkPhysician" craft_tool="toolBeaker">
-			<ingredient name="drinkJarBoiledWater" count="2"/>
-			<ingredient name="foodCropCorn" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
 		</recipe>
 
 		<!-- * CANDYS -->
@@ -3076,6 +3076,407 @@
 			<ingredient name="resourceMechanicalParts" count="25"/>
 			<ingredient name="resourceMechanicalParts" count="35"/>
 			<ingredient name="resourceSpring" count="15"/>
+		</recipe>
+
+		<!-- prueba recetas vanilla -->
+		
+		
+		<!-- food / med -->
+		<recipe name="drinkJarGoldenRodTeaSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drinkJarRedTeaSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drinkJarCoffeeSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drinkJarYuccaJuiceSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drinkYuccaJuiceSmoothieSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodBoiledMeatSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodCornBreadSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodGrilledMeatSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodBaconAndEggsSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodPumpkinPieSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodBlueberryPieSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodPumpkinBreadSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="foodPumpkinCheesecakeSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodVegetableStewSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodMeatStewSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodSteakAndPotatoSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodHoboStewSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodFishTacosSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodChiliDogSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodShamChowderSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodShepardsPieSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="drinkJarBeerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodTunaFishGravyToastSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="foodSpaghettiSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="foodGumboStewSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasMoonshineSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasAwesomeSauceSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasLearningElixirSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<!--<recipe name="drinkJarGrandpasForgettingElixirSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>-->
+
+		<recipe name="medicalFirstAidBandageSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drugFortBitesSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drugSteroidsSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="drugHerbalAntibioticsSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="medicalPlasterCastSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="drugRecogSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="medicalFirstAidKitSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="drugAntibioticsSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+
+		<!-- mechanic / elect -->
+		<recipe name="generatorbankSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="vehicleWheelsSchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="vehicleBicycleSchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="vehicleMinibikeSchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="400"/>
+		</recipe>
+
+		<recipe name="vehicleMotorcycleSchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="800"/>
+		</recipe>
+
+		<recipe name="vehicleTruck4x4SchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="1600"/>
+		</recipe>
+
+		<recipe name="vehicleGyroCopterSchematicTM" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="3200"/>
+		</recipe>
+
+		<recipe name="cntDewCollectorSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="forgeSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="400"/>
+		</recipe>
+
+		<recipe name="workbenchSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="800"/>
+		</recipe>
+
+		<recipe name="cementMixerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="1600"/>
+		</recipe>
+
+		<recipe name="chemistryStationSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="3200"/>
+		</recipe>
+
+		<recipe name="electricwirerelaySchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="switchSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="tripwirepostSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="ceilingLight01_playerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="industrialLight01_playerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="industrialLight02_playerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="ceilingLight07_playerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="electrictimerrelaySchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="pressureplateSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="pressureplateLongSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="motionsensorSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="batterybankSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="spotlightPlayerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="speakerSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="woodenGarageDoor3x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="woodenGarageDoor4x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="woodenGarageDoor5x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="ironGarageDoor_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="steelGarageDoor3x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="steelGarageDoor4x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="steelGarageDoor5x3_PoweredBlockVariantHelperSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="bladeTrapSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="dartTrapSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="electricfencepostSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="vaultDoor01_PoweredSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="vaultDoor01Double_PoweredSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="vaultHatch01_PoweredSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="metalReinforcedWoodDrawBridgePoweredSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="autoTurretSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="shotgunTurretSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+
+
+		<!-- varios -->
+		<recipe name="resourceLockPickSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="resourceOilSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="ammoGasCanSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="ammoGasCanBundleSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="400"/>
+		</recipe>
+
+		<recipe name="resourceGunPowderBundleSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="400"/>
+		</recipe>
+
+		<recipe name="thrownAmmoPipeBombSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="thrownGrenadeContactSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="thrownGrenadeSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="thrownTimedChargeSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="thrownDynamiteSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="mineHubcapSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="mineAirFilterSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="mineCookingPotSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="toolAnvilSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="toolBellowsSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="100"/>
+		</recipe>
+
+		<recipe name="toolDewGathererSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="toolDewTarpSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="200"/>
+		</recipe>
+
+		<recipe name="toolForgeCrucibleSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+		<recipe name="toolDewFilterSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="300"/>
 		</recipe>
 		
 

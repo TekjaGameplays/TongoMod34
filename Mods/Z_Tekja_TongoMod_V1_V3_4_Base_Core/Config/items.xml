@@ -53,7 +53,7 @@
 	<append xpath="/items/item[@name='drinkJarGrandpasMoonshine']"> <property name="UnlockedBy" value="drinkJarGrandpasMoonshineSchematic"/> </append>
 	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']"> <property name="UnlockedBy" value="drinkJarGrandpasAwesomeSauceSchematic"/> </append>
 	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixir']"> <property name="UnlockedBy" value="drinkJarGrandpasLearningElixirSchematic"/> </append>
-	<append xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']"> <property name="UnlockedBy" value="drinkJarGrandpasForgettingElixirSchematic"/> </append>
+	<!--<append xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']"> <property name="UnlockedBy" value="drinkJarGrandpasForgettingElixirSchematic"/> </append>-->
 
 
 	<!-- * CHANGED UNLOCKED FOR MEDICS -->
@@ -414,95 +414,95 @@
 
 	
 	<!-- *** BOOKS & RECIPES  -->
-	<append xpath="/items/item[starts-with(@name,'bookRangers')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookSpear')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookHunting')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookArtOfMining')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookBatterUp')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookRangers')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookSpear')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookHunting')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookArtOfMining')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookBatterUp')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
 	<!--<append xpath="/items/item[starts-with(@name,'bookNeedleAndThread')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>-->
-	<append xpath="/items/item[starts-with(@name,'bookBarBrawling')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT0"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookWasteTreasures')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookUrbanCombat')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookNightStalker')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookFiremansAlmanac')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookPistolPete')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookLuckyLooter')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT1"/> </append>	
-	<append xpath="/items/item[starts-with(@name,'bookEnforcer')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookShotgunMessiah')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookGreatHeist')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookSniper')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookAutoWeapons')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
-	<append xpath="/items/item[starts-with(@name,'bookTechJunkie')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosT2"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookBarBrawling')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookWasteTreasures')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookUrbanCombat')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookNightStalker')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookFiremansAlmanac')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookPistolPete')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookLuckyLooter')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>	
+	<append xpath="/items/item[starts-with(@name,'bookEnforcer')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookShotgunMessiah')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookGreatHeist')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookSniper')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookAutoWeapons')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
+	<append xpath="/items/item[starts-with(@name,'bookTechJunkie')]"> <property name="Group" value="Books,Mods,BooksOnly,LibrosTX"/> </append>
 
 
 	<!-- *** MODS  -->
 	<!-- T1  -->
-	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunFlashlightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunScopeSmallSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunForegripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunRetractingStockSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunDuckbillSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunChokeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
-	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT1"/> </append>
+	<append xpath="/items/item[@name='modGunBarrelExtenderSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunFlashlightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunScopeSmallSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunTriggerGroupSemiSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunForegripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunRetractingStockSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunDuckbillSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunChokeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modShotgunSawedOffBarrelSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunMeleeTheHunterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeTemperedBladeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeWeightedHeadSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeStructuralBraceSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeErgonomicGripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeGraveDiggerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeWoodSplitterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorInsulatedLinerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorCoolingMeshSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorImprovedFittingsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorPlatingBasicSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorMuffledConnectorsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
 	<!-- T2  -->
-	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunScopeMediumSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunBipodSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunCrippleEmSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modFuelTankSmallSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modVehicleReserveFuelTankSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modVehicleFuelSaverSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modVehicleOffRoadHeadlightsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
-	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT2"/> </append>
+	<append xpath="/items/item[@name='modGunMuzzleBrakeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunScopeMediumSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunTriggerGroupBurst3Schematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunBipodSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunMagazineExtenderSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunCrippleEmSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunBowArrowRestSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeSerratedBladeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeFortifyingGripSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeClubBarbedWireSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeBunkerBusterSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeIronBreakerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modFuelTankSmallSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modVehicleReserveFuelTankSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modVehicleFuelSaverSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modVehicleOffRoadHeadlightsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorHelmetLightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
 	<!-- T3  -->
-	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunLaserSightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunScopeLargeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunReflexSightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorBandolierSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modFuelTankLargeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modRoboticDroneCargoModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modRoboticDroneMedicModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modRoboticDroneHeadlampModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modRoboticDroneArmorPlatingModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modRoboticDroneMoraleBoosterModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modVehicleSuperChargerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
-	<append xpath="/items/item[@name='modVehicleExpandedSeatSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsT3"/> </append>
+	<append xpath="/items/item[@name='modGunSoundSuppressorSilencerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunLaserSightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunScopeLargeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunReflexSightSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunTriggerGroupAutomaticSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunBowPolymerStringSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modGunMeleeRadRemoverSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modMeleeClubMetalSpikesSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorCustomizedFittingsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorPlatingReinforcedSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorAdvancedMuffledConnectorsSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorBandolierSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorImpactBracingSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modArmorWaterPurifierSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modFuelTankLargeSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modRoboticDroneCargoModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modRoboticDroneMedicModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modRoboticDroneHeadlampModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modRoboticDroneArmorPlatingModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modRoboticDroneMoraleBoosterModSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modVehicleSuperChargerSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
+	<append xpath="/items/item[@name='modVehicleExpandedSeatSchematic']"> <property name="Group" value="Books,SchematicsOnly,TCReading,ModsTX"/> </append>
 
 
 	<append xpath="/items">
@@ -4685,7 +4685,22 @@
 			<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,weapon,meleeWeapon,attTongo,perkTiolavara,canHaveCosmetic,spikeClubBonus"/>
 			<property name="DisplayType" value="meleeLightTM"/>
 			<property name="Group" value="Ammo/Weapons,Melee Weapons,Armas"/>
+			
 			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/ClubWood/clubWoodSpikePrefab.prefab"/>
+			<!--<property name="Model" value="#@modfolder:Resources/SpikedClub.unity3d?SpikedClubPrefab"/>-->
+			<!--<property name="Model" value="#@modfolder:Resources/WrenchTest3Prefab.unity3d?WrenchTest3Prefab"/>-->
+			<!--<property name="Model" value="#@modfolder:Resources/BateTest.unity3d?BateTestPrefab"/>-->
+
+			
+			<!--<property name="Meshfile" value="#@modfolder:Resources/BateTest.unity3d?BateTestPrefab" />-->
+			<!--<property name="HandMeshfile" value="#@modfolder:Resources/BateTest.unity3d?BateTestPrefab" />-->
+			
+			<!--<property name="Meshfile" value="#@modfolder:Resources/SpikedClub2.unity3d?SpikedClub2Prefab" />-->
+			<!--<property name="HandMeshfile" value="#@modfolder:Resources/SpikedClub2.unity3d?SpikedClub2Prefab" />-->
+			
+			
+			
+			
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MresourceGraphene"/>
 			<property name="Weight" value="0"/>
@@ -5239,10 +5254,9 @@
 			<property name="UnlockedBy" value="questWaterBarrelTMBundleSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="cntBarrelPlasticSingle00"/>
-			<property name="DescriptionKey" value="questWaterBarrelTMBundleDesc"/>
-			<property name="ItemTypeIcon" value="bundle"/>
 			<property name="CustomIconTint" value="FFFFFF"/>
-			<property name="DescriptionKey" value="questWaterBarrelTMDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="questWaterBarrelTMBundleDesc"/>
 			<property name="Stacknumber" value="500"/>
 			<property name="Group" value="Resources,OchemiSci"/>
 			<property class="Action0">
@@ -8362,6 +8376,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarGoldenRodTea"/>
 			<property name="CustomIcon" value="drinkJarGoldenRodTea"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGoldenRodTea" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8373,6 +8388,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarRedTea"/>
 			<property name="CustomIcon" value="drinkJarRedTea"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarRedTea" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8384,6 +8400,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarYuccaJuice"/>
 			<property name="CustomIcon" value="drinkJarYuccaJuice"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarYuccaJuice" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8395,6 +8412,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkYuccaJuiceSmoothie"/>
 			<property name="CustomIcon" value="drinkYuccaJuiceSmoothie"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkYuccaJuiceSmoothie" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8406,6 +8424,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarCoffee"/>
 			<property name="CustomIcon" value="drinkJarCoffee"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarCoffee" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8417,6 +8436,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarBeer"/>
 			<property name="CustomIcon" value="drinkJarBeer"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeer" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8428,6 +8448,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarGrandpasMoonshine"/>
 			<property name="CustomIcon" value="drinkJarGrandpasMoonshine"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasMoonshine" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8439,6 +8460,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarGrandpasAwesomeSauce"/>
 			<property name="CustomIcon" value="drinkJarGrandpasAwesomeSauce"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasAwesomeSauce" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8450,28 +8472,31 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarGrandpasLearningElixir"/>
 			<property name="CustomIcon" value="drinkJarGrandpasLearningElixir"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasLearningElixir" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
 
-		<item name="drinkJarGrandpasForgettingElixirSchematic">
+		<!--<item name="drinkJarGrandpasForgettingElixirSchematic">
 			<property name="Extends" value="schematicMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drinkJarGrandpasForgettingElixir"/>
 			<property name="CustomIcon" value="drinkJarGrandpasForgettingElixir"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasForgettingElixir" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
-		</item>
+		</item>-->
 
 		<item name="foodCornBreadSchematic">
 			<property name="Extends" value="schematicMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodCornBread"/>
 			<property name="CustomIcon" value="foodCornBread"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornBread" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8494,6 +8519,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodGrilledMeat"/>
 			<property name="CustomIcon" value="foodGrilledMeat"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGrilledMeat" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8505,6 +8531,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodMeatStew"/>
 			<property name="CustomIcon" value="foodMeatStew"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodMeatStew" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8516,6 +8543,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodSteakAndPotato"/>
 			<property name="CustomIcon" value="foodSteakAndPotato"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSteakAndPotato" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8527,6 +8555,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodShamChowder"/>
 			<property name="CustomIcon" value="foodShamChowder"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShamChowder" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8538,6 +8567,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodHoboStew"/>
 			<property name="CustomIcon" value="foodHoboStew"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHoboStew" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8549,6 +8579,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodFishTacos"/>
 			<property name="CustomIcon" value="foodFishTacos"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodFishTacos" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8560,6 +8591,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodChiliDog"/>
 			<property name="CustomIcon" value="foodChiliDog"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodChiliDog" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8571,6 +8603,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodBlueberryPie"/>
 			<property name="CustomIcon" value="foodBlueberryPie"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPie" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8582,6 +8615,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodPumpkinPie"/>
 			<property name="CustomIcon" value="foodPumpkinPie"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinPie" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8593,6 +8627,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodPumpkinCheesecake"/>
 			<property name="CustomIcon" value="foodPumpkinCheesecake"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinCheesecake" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8604,6 +8639,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodPumpkinBread"/>
 			<property name="CustomIcon" value="foodPumpkinBread"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinBread" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8615,6 +8651,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodGumboStew"/>
 			<property name="CustomIcon" value="foodGumboStew"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGumboStew" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8626,6 +8663,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodShepardsPie"/>
 			<property name="CustomIcon" value="foodShepardsPie"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShepardsPie" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8637,6 +8675,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodSpaghetti"/>
 			<property name="CustomIcon" value="foodSpaghetti"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSpaghetti" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8648,6 +8687,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodTunaFishGravyToast"/>
 			<property name="CustomIcon" value="foodTunaFishGravyToast"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodTunaFishGravyToast" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8659,6 +8699,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodBoiledMeat"/>
 			<property name="CustomIcon" value="foodBoiledMeat"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoiledMeat" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8670,6 +8711,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodBaconAndEggs"/>
 			<property name="CustomIcon" value="foodBaconAndEggs"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBaconAndEggs" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8681,13 +8723,14 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodVegetableStew"/>
 			<property name="CustomIcon" value="foodVegetableStew"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodVegetableStew" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
 
-		<item name="foodBoiledMeatSchematic">
+		<!--<item name="foodBoiledMeatSchematic">
 			<property name="Extends" value="schematicMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="foodBoiledMeat"/>
@@ -8696,7 +8739,7 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoiledMeat" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
-		</item>
+		</item>-->
 
 		<!-- * MEDIC -->
 		<item name="medicalFirstAidBandageSchematic">
@@ -8704,6 +8747,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="medicalFirstAidBandage"/>
 			<property name="CustomIcon" value="medicalFirstAidBandage"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidBandage" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8715,6 +8759,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="medicalFirstAidKit"/>
 			<property name="CustomIcon" value="medicalFirstAidKit"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidKit" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8726,6 +8771,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="medicalPlasterCast"/>
 			<property name="CustomIcon" value="medicalPlasterCast"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalPlasterCast" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8737,6 +8783,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drugHerbalAntibiotics"/>
 			<property name="CustomIcon" value="drugHerbalAntibiotics"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugHerbalAntibiotics" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8748,6 +8795,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drugAntibiotics"/>
 			<property name="CustomIcon" value="drugAntibiotics"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugAntibiotics" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8759,6 +8807,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drugSteroids"/>
 			<property name="CustomIcon" value="drugSteroids"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugSteroids" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8770,6 +8819,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drugRecog"/>
 			<property name="CustomIcon" value="drugRecog"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugRecog" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8781,6 +8831,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="drugFortBites"/>
 			<property name="CustomIcon" value="drugFortBites"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,FoodMeds"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugFortBites" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8793,6 +8844,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="resourceGunPowderBundle"/>
 			<property name="CustomIcon" value="resourceGunPowder"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceGunPowderBundle" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8804,6 +8856,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="thrownAmmoPipeBomb"/>
 			<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownAmmoPipeBomb" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8815,6 +8868,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="thrownGrenadeContact"/>
 			<property name="CustomIcon" value="thrownGrenadeContact"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeContact" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8826,6 +8880,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="thrownGrenade"/>
 			<property name="CustomIcon" value="thrownGrenade"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenade" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8837,6 +8892,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="thrownTimedCharge"/>
 			<property name="CustomIcon" value="thrownTimedCharge"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownTimedCharge" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8848,6 +8904,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="thrownDynamite"/>
 			<property name="CustomIcon" value="thrownDynamite"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownDynamite" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8860,6 +8917,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolBellows"/>
 			<property name="CustomIcon" value="toolBellows"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBellows" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8871,6 +8929,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolAnvil"/>
 			<property name="CustomIcon" value="toolAnvil"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolAnvil" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8882,6 +8941,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolForgeCrucible"/>
 			<property name="CustomIcon" value="toolForgeCrucible"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolForgeCrucible" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8893,6 +8953,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolDewGatherer"/>
 			<property name="CustomIcon" value="toolDewGatherer"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolDewGatherer" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8904,6 +8965,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolDewTarp"/>
 			<property name="CustomIcon" value="toolDewTarp"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolDewTarp" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8915,6 +8977,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="toolDewFilter"/>
 			<property name="CustomIcon" value="resourceWaterFilter"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolDewFilter" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -8926,6 +8989,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="resourceLockPick"/>
 			<property name="CustomIcon" value="resourceLockPick"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceLockPick" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9014,6 +9078,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="resourceOil"/>
 			<property name="CustomIcon" value="resourceOil"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceOil" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9025,6 +9090,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="ammoGasCan"/>
 			<property name="CustomIcon" value="ammoGasCan"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoGasCan" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9036,6 +9102,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Unlocks" value="ammoGasCanBundle"/>
 			<property name="CustomIcon" value="ammoGasTankTM"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoGasCanBundle" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9049,6 +9116,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="cntDewCollector"/>
 			<property name="Unlocks" value="cntDewCollector"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntDewCollector" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9060,6 +9128,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="forge"/>
 			<property name="Unlocks" value="forge"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="forge" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9071,6 +9140,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="workbench"/>
 			<property name="Unlocks" value="workbench"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="workbench" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9082,6 +9152,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="cementMixer"/>
 			<property name="Unlocks" value="cementMixer"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cementMixer" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9093,6 +9164,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="chemistryStation"/>
 			<property name="Unlocks" value="chemistryStation"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chemistryStation" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9106,6 +9178,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="mineCookingPot"/>
 			<property name="Unlocks" value="mineCookingPot"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mineCookingPot" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9117,6 +9190,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="mineHubcap"/>
 			<property name="Unlocks" value="mineHubcap"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mineHubcap" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9128,6 +9202,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="mineAirFilter"/>
 			<property name="Unlocks" value="mineAirFilter"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,Varios"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mineAirFilter" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9141,6 +9216,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="generatorBankA"/>
 			<property name="Unlocks" value="generatorbank"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="generatorbank" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9152,6 +9228,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="electricwirerelay"/>
 			<property name="Unlocks" value="electricwirerelay"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricwirerelay" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9163,6 +9240,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="switch"/>
 			<property name="Unlocks" value="switch"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="switch" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9174,6 +9252,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="tripwirepost"/>
 			<property name="Unlocks" value="tripwirepost"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tripwirepost" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9185,6 +9264,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="lightCeilingBulbMountWhite"/>
 			<property name="Unlocks" value="ceilingLight01_player"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ceilingLight01_player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9196,6 +9276,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="industrialLight01"/>
 			<property name="Unlocks" value="industrialLight01_player"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialLight01_player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9207,6 +9288,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="lightIndustrial"/>
 			<property name="Unlocks" value="industrialLight02_player"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialLight02_player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9218,6 +9300,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="lightCeiling07"/>
 			<property name="Unlocks" value="ceilingLight07_player"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ceilingLight07_player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9229,6 +9312,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="electrictimerrelay"/>
 			<property name="Unlocks" value="electrictimerrelay"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electrictimerrelay" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9240,6 +9324,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="pressureplate"/>
 			<property name="Unlocks" value="pressureplate"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplate" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9251,6 +9336,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="pressureplateLong"/>
 			<property name="Unlocks" value="pressureplateLong"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplateLong" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9262,6 +9348,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="motionsensor"/>
 			<property name="Unlocks" value="motionsensor"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="motionsensor" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9273,6 +9360,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="batterybank"/>
 			<property name="Unlocks" value="batterybank"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9284,6 +9372,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="woodenGarageDoor3x3White"/>
 			<property name="Unlocks" value="woodenGarageDoor3x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor3x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9295,6 +9384,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="woodenGarageDoor4x3White"/>
 			<property name="Unlocks" value="woodenGarageDoor4x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor4x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9306,6 +9396,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="woodenGarageDoor5x3White"/>
 			<property name="Unlocks" value="woodenGarageDoor5x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor5x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9317,6 +9408,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="ironGarageDoorWhite"/>
 			<property name="Unlocks" value="ironGarageDoor_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ironGarageDoor_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9328,6 +9420,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="spotlightPlayer"/>
 			<property name="Unlocks" value="spotlightPlayer"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayer" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9339,6 +9432,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="speaker"/>
 			<property name="Unlocks" value="speaker"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speaker" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9350,6 +9444,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="vaultDoor01"/>
 			<property name="Unlocks" value="vaultDoor01_Powered"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor01_Powered" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9361,6 +9456,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="vaultDoor01Double"/>
 			<property name="Unlocks" value="vaultDoor01Double_Powered"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor01Double_Powered" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9372,6 +9468,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="vaultHatch01"/>
 			<property name="Unlocks" value="vaultHatch01_Powered"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultHatch01_Powered" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9383,6 +9480,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="steelGarageDoor3x3White"/>
 			<property name="Unlocks" value="steelGarageDoor3x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor3x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9394,6 +9492,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="steelGarageDoor4x3White"/>
 			<property name="Unlocks" value="steelGarageDoor4x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor4x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9405,6 +9504,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="steelGarageDoor5x3White"/>
 			<property name="Unlocks" value="steelGarageDoor5x3_PoweredBlockVariantHelper"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor5x3_PoweredBlockVariantHelper" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9416,6 +9516,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="metalReinforcedWoodDrawBridge"/>
 			<property name="Unlocks" value="metalReinforcedWoodDrawBridgePowered"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalReinforcedWoodDrawBridgePowered" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9428,6 +9529,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="bladeTrap"/>
 			<property name="Unlocks" value="bladeTrap"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bladeTrap" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9439,6 +9541,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="dartTrap"/>
 			<property name="Unlocks" value="dartTrap"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dartTrap" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9450,6 +9553,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="electricfencepost"/>
 			<property name="Unlocks" value="electricfencepost"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9461,6 +9565,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="autoTurret"/>
 			<property name="Unlocks" value="autoTurret"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="autoTurret" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9472,6 +9577,7 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="CustomIcon" value="shotgunTurret"/>
 			<property name="Unlocks" value="shotgunTurret"/>
+			<property name="Group" value="Books,Mods,BooksOnly,LibrosTM,MecElec"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="shotgunTurret" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>

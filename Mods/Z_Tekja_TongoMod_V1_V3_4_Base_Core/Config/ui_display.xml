@@ -14,15 +14,22 @@
 			<!--<crafting_category name="ProElecTM" icon="ui_game_symbol_electric_generator" display_name="lblElecMakina" />-->
 		</crafting_category_list>
 
-		<crafting_category_list display_type="workingLibros">			
-			<crafting_category name="LibrosT0" icon="ui_game_symbol_book" display_name="lblLibrosT0WorkingLibros" />
-			<crafting_category name="LibrosT1" icon="ui_game_symbol_book" display_name="lblLibrosT1WorkingLibros" />
-			<crafting_category name="LibrosT2" icon="ui_game_symbol_book" display_name="lblLibrosT2WorkingLibros" />
+		<crafting_category_list display_type="workingLibros">
+			<crafting_category name="LibrosTX" icon="ui_game_symbol_book" display_name="lblLibrosTXWorkingLibros" />
+			<!--<crafting_category name="LibrosT0" icon="ui_game_symbol_book" display_name="lblLibrosT0WorkingLibros" />-->
+			<!--<crafting_category name="LibrosT1" icon="ui_game_symbol_book" display_name="lblLibrosT1WorkingLibros" />-->
+			<!--<crafting_category name="LibrosT2" icon="ui_game_symbol_book" display_name="lblLibrosT2WorkingLibros" />-->
 			<!--<crafting_category name="MagazinesTX" icon="ui_game_symbol_hammer" display_name="lblMgazinesTXWorkingLibros" />-->
-			<crafting_category name="ModsT1" icon="ui_game_symbol_assemble" display_name="lblModsT1WorkingLibros" />
-			<crafting_category name="ModsT2" icon="ui_game_symbol_assemble" display_name="lblModsT2WorkingLibros" />
-			<crafting_category name="ModsT3" icon="ui_game_symbol_assemble" display_name="lblModsT3WorkingLibros" />
+			<crafting_category name="ModsTX" icon="ui_game_symbol_assemble" display_name="lblModsTXWorkingLibros" />
+			<!--<crafting_category name="ModsT1" icon="ui_game_symbol_assemble" display_name="lblModsT1WorkingLibros" />-->
+			<!--<crafting_category name="ModsT2" icon="ui_game_symbol_assemble" display_name="lblModsT2WorkingLibros" />-->
+			<!--<crafting_category name="ModsT3" icon="ui_game_symbol_assemble" display_name="lblModsT3WorkingLibros" />-->
 			<!--<crafting_category name="LibrosTM" icon="ui_game_symbol_map_player_arrow" display_name="lblUpgradeLibros" />-->
+
+			<crafting_category name="FoodMeds" icon="ui_game_symbol_food_medic" display_name="lblFoodMedsWorkingLibros" />
+			<crafting_category name="MecElec" icon="ui_game_symbol_mechanic_electric" display_name="lblMecElecWorkingLibros" />
+			<crafting_category name="Varios" icon="ui_game_symbol_varios" display_name="lblVariosWorkingLibros" />
+			
 			<crafting_category name="RanDice" icon="ui_game_symbol_gift" display_name="lblRanDicelWorkingLibros" />
 		</crafting_category_list>
 
