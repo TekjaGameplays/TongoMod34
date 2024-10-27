@@ -434,7 +434,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="7000"/>
 				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> <!-- Feral damage -->
-				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
 		</entity_class>		
