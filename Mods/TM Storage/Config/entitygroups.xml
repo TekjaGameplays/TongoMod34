@@ -1,4 +1,419 @@
 <configs>
+
+<!-- SCOUT HORDE -->	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS207']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS216']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS225']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS234']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS243']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS252']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS262']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS272']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS281']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS291']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS301']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS311']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS322']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS332']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS343']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS353']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS364']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS374']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS385']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS396']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS407']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS419']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS430']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS441']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS453']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS464']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS476']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS488']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS464']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS500']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS512']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS524']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS464']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS536']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS548']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS560']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS573']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS585']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS598']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS610']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS623']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS636']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS649']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS662']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS675']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS688']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS702']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS715']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS729']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS742']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS756']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS769']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS783']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS797']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS811']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS825']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS839']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS853']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS868']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS882']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS896']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS911']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS925']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS940']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS955']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS970']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS985']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS1000']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='scoutHordeStageGS1015']/text()" delim="\n" op="add" >
+		zombieArleneIrradiationComand, .20
+		zombieArleneElectricComand, .20
+		zombieArleneFireComand, .20
+	</csv>
 	
 	<!-- WANDERIN -->
 	<csv xpath="/entitygroups/entitygroup[@name='wanderingHordeStageGS1']/text()" delim="\n" op="add" >
@@ -268,14 +683,14 @@
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" > 
-		zombieArleneIrradiationComand, 20
-		zombieArleneElectricComand, 20
-		zombieArleneFireComand, 20
-		zombieMutatedIrradiationElite, 20
-		zombieMutatedElectricElite, 20
-		zombieMutatedFireElite, 20
-		zombieWightIrradiationElite, 20
-		zombieWightElectricElite, 20
+		zombieArleneIrradiationComand, 2
+		zombieArleneElectricComand, 2
+		zombieArleneFireComand, 2
+		zombieMutatedIrradiationElite, 2
+		zombieMutatedElectricElite, 2
+		zombieMutatedFireElite, 2
+		zombieWightIrradiationElite, 2
+		zombieWightElectricElite, 2
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" > 
@@ -359,10 +774,16 @@
 	<!-- VULTURE -->
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" > 
 		animalZombieVultureElite, 20
+		animalCoyoteIrradiationElite, 20
+		animalCoyoteElectricElite, 20
+		animalCoyoteFireElite, 20
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']/text()" delim="\n" op="add" > 
 		animalZombieVultureElite, 20
+		animalCoyoteIrradiationElite, 20
+		animalCoyoteElectricElite, 20
+		animalCoyoteFireElite, 20
 	</csv>
 	
 	<append xpath="/entitygroups">
@@ -388,24 +809,6 @@
 		<entitygroup name="zombieLumberjackFireElite">zombieLumberjackFireElite</entitygroup>
 		
 		<entitygroup name="animalZombieVultureElite">animalZombieVultureElite</entitygroup>
-		
-		<entitygroup name="TMWanderingHordeStage01">
-			zombieBurntIrradiationElite
-			zombieBurntElectricElite
-			zombieBurntFireElite
-		</entitygroup>	
-		
-		<entitygroup name="TMWanderingHordeStage02">
-			zombieMutatedIrradiationElite
-			zombieMutatedElectricElite
-			zombieMutatedFireElite
-		</entitygroup>
-		
-		<entitygroup name="TMWanderingHordeStage03">
-			zombieWightIrradiationElite
-			zombieWightElectricElite
-			zombieWightFireElite
-		</entitygroup>
 	
 	</append>
 </configs>

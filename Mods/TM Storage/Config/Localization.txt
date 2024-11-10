@@ -181,3 +181,7 @@ zombieLumberjackElectricElite,,,,,Lumberjack [16537E]Electric [000000]Elite,[000
 zombieLumberjackFireElite,,,,,Lumberjack [F1713C]Fire [000000]Elite,[000000]Elite Leñador [F1713C]Fuego,,
 
 animalZombieVultureElite,,,,,[8FCE00]Radiated Vulture [000000]Elite,[000000]Elite Buitre [8FCE00]Irradiado,,
+
+animalCoyoteIrradiationElite,,,,,Coyote [8FCE00]Irradiation [8E7CC3]Elite,[8E7CC3]Coyote [8FCE00]Irradiado,,
+animalCoyoteElectricElite,,,,,Coyote [16537E]Electric [8E7CC3]Elite,[8E7CC3]Coyote [16537E]Electrico,,
+animalCoyoteFireElite,,,,,Coyote [FF0000]Fire [8E7CC3]Elite,[8E7CC3]Coyote [FF0000]Fuego,,

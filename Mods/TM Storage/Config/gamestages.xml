@@ -46,18 +46,4 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']/spawn[@group='FwanderingHordeStageGS64' and @num='08']/@num">50</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']/spawn[@group='ZombieBearsGroup' and @num='02']/@num">05</set>
 	
-	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']">
-		<gamestage stage="100">
-			<spawn group="TMWanderingHordeStage01"	num="50" maxAlive="30" duration="09"/>
-		</gamestage>
-		
-		<gamestage stage="120">
-			<spawn group="TMWanderingHordeStage02"	num="50" maxAlive="30" duration="09"/>
-		</gamestage>
-		
-		<gamestage stage="140">
-			<spawn group="TMWanderingHordeStage03"	num="50" maxAlive="30" duration="09"/>
-		</gamestage>
-	</insertAfter>
-	
 </configs>

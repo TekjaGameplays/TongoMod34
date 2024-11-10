@@ -75,7 +75,7 @@
 			
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyrad"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyradTM"/>
 			</effect_group>
 		</entity_class>
 		
@@ -97,7 +97,7 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
 				<!--<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyrad"/>-->
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyshock"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyshockTM"/>
 			</effect_group>
 		</entity_class>
 		
@@ -119,7 +119,7 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
 				<!--<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyrad"/>-->
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyburn"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyburnTM"/>
 
 			</effect_group>
 		</entity_class>
@@ -437,7 +437,77 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
-		</entity_class>		
+		</entity_class>
+		
+		<!-- COYOTE -->
+		<entity_class name="animalCoyoteIrradiationElite" extends="animalWolf">
+			<property name="JumpMaxDistance" value="8.8, 10"/>
+			<property name="TimeStayAfterDeath" value="6"/>
+			<property name="DeadBodyHitPoints" value="100"/>
+			
+			<property name="SizeScale" value="2"/>
+			<property name="ExperienceGain" value="5000"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value=".60"/>
+			
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="1.20, 1.8"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="7000"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> <!-- Feral damage -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyrad"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="animalCoyoteElectricElite" extends="animalWolf">
+			<property name="JumpMaxDistance" value="8.8, 10"/>
+			<property name="TimeStayAfterDeath" value="6"/>
+			<property name="DeadBodyHitPoints" value="100"/>
+			
+			<property name="SizeScale" value="2"/>
+			<property name="ExperienceGain" value="5000"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value=".60"/>
+			
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="1.20, 1.8"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="7000"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> <!-- Feral damage -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyshock"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="animalCoyoteFireElite" extends="animalWolf">
+			<property name="JumpMaxDistance" value="8.8, 10"/>
+			<property name="TimeStayAfterDeath" value="6"/>
+			<property name="DeadBodyHitPoints" value="100"/>
+			<property name="SizeScale" value="2"/>
+			
+			<property name="ExperienceGain" value="5000"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+			<property name="LootDropProb" value=".60"/>
+			
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="1.20, 1.8"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="7000"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> <!-- Feral damage -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="twitch_enemyburn"/>
+			</effect_group>
+		</entity_class>
 	
 	</append>
 	
