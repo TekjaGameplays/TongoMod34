@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz>
+
+	<!-- ADD MORE ANIMALS TO SPAWN FOR TONGOMOD -->
+
+
+	<append xpath="/entitygroups">
+
+		<!-- *** WILD_GAME_FOREST -->
+		<entitygroup name="WildGameForest">animalDoe, 1</entitygroup>
+		<entitygroup name="WildGameForest">animalStag, .5</entitygroup>
+		<entitygroup name="WildGameForest">animalBoar, .5</entitygroup>
+
+		<!-- *** WILD_GAME_FOREST_NIGHT -->
+		<entitygroup name="WildGameForest">animalRabbit, 5</entitygroup>
+		<entitygroup name="WildGameForest">animalChicken, 5</entitygroup>
+		<entitygroup name="WildGameForest">animalBoar, 1</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_FOREST -->
+		<entitygroup name="EnemyAnimalsForest">animalCoyote, .5</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
+		<entitygroup name="EnemyAnimalsBurntForestAny">animalCoyote, 5</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_NIGHT -->
+		<entitygroup name="EnemyAnimalsBurntForestNight">animalWolf, 5</entitygroup>
+		<entitygroup name="EnemyAnimalsBurntForestNight">animalBoar, 5</entitygroup>
+		<entitygroup name="EnemyAnimalsBurntForestNight">animalSnake, 10</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_DESERT -->
+		<entitygroup name="EnemyAnimalsDesert">animalBoar, 5</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
+		<entitygroup name="EnemyAnimalsDesertNight">animalCoyote, 20</entitygroup>
+		<entitygroup name="EnemyAnimalsDesertNight">animalBearSmall, 5</entitygroup>
+
+		<!-- *** ENEMY_ANIMAL_SNOW-->
+
+		<!-- *** ENEMY_ANIMAL_SNOW_NIGHT -->
+
+		<!-- *** ENEMY_ANIMAL_WASTELAND -->
+
+		<!-- *** ENEMY_ANIMAL_WASTELAND_NIGHT -->
+
+	</append>
+
+
+	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+	
+</raiz>
