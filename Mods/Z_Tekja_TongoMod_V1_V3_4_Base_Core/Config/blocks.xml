@@ -924,8 +924,8 @@
 		<!-- * STEEL TIER 4 -->
 		<block name="trapSpikesSteelBigT4TM">
 			<property name="Extends" value="trapSpikesIronBigT3TM" />
-			<property name="Damage" value="10" />
-			<property name="Damage_received" value="40" />
+			<property name="Damage" value="20" />
+			<property name="Damage_received" value="20" />
 			<property name="MaxDamage" value="10000" />
 			<property name="Material" value="Msteel" />
 			<property name="Texture" value="356,355,356,356,356,356" />
@@ -949,8 +949,8 @@
 		<block name="trapSpikesGrapheneBigT5TM">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Class" value="TrunkTip"/>
-			<property name="Damage" value="15"/>
-			<property name="Damage_received" value="50"/>
+			<property name="Damage" value="50"/>
+			<property name="Damage_received" value="15"/>
 			<property name="MaxDamage" value="30000"/>
 			<property name="DescriptionKey" value="trapSpikesGroupDesc"/>
 			<property name="Material" value="Mgraphene_shapes" />
