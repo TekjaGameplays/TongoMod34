@@ -4980,6 +4980,7 @@
 		<item name="gunHandgunMillionaireTM">
 			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkRangedWeapons,attachmentsIncluded,canHaveCosmetic,handgunSkill"/>
 			<property name="DisplayType" value="rangedHandgunMillionaireTM"/>
+			
 			<property name="HoldType" value="6"/>
 			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/SMG/smgPrefab.prefab"/>
 			<property name="Material" value="MHandGunParts"/>
@@ -4998,7 +4999,7 @@
 			<property name="Group" value="Ammo/Weapons,Ranged Weapons,Armas"/>
 			<property name="RepairExpMultiplier" value="10.8"/>
 			<property name="LightValue" value=".45"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier2"/>
 			<property name="UnlockedBy" value="craftingRangedWeaponRegularT1TM"/><!-- gunHandgunT3SMG5Schematic, -->
 			<property name="ShowQuality" value="true"/>
@@ -5009,7 +5010,7 @@
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value=".150"/><!-- obsolete if rounds per minute exists -->
 				<property name="Magazine_items" value="casinoCoin"/>
-				<property name="Reload_time" value="4.1"/>
+				<property name="Reload_time" value="3.1"/>
 				<property name="Sound_start" value="nailgun_fire"/>
 				<property name="Sound_loop" value="nailgun_fire"/>
 				<property name="Sound_end" value="nailgun_fire"/>
@@ -5029,7 +5030,8 @@
 				<property name="Class" value="Zoom"/>
 				<property name="Zoom_max_out" value="55"/>
 				<property name="Zoom_max_in" value="55"/>
-				<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
+				<!--<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>-->
+				<property name="ScopeCameraOffset" value="0,-.015,-.01"/>
 				<property name="zoomTriggerEffectPullDualsense" value="PistolZoom"/>
 				<property name="zoomTriggerEffectPullXb" value="PistolZoom"/>
 			</property>
@@ -5062,6 +5064,7 @@
 				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".3" tags="perkRangedWeapons"/>
 				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3" tags="perkRangedWeapons"/>
 				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3" tags="perkRangedWeapons"/>
+				
 
 				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6" tags="perkRangedWeapons"/>
 				<passive_effect name="WeaponHandling" operation="base_set" value=".8" tags="perkRangedWeapons"/>
@@ -5070,7 +5073,7 @@
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkRangedWeapons"/>
 			</effect_group>
 		</item>
-
+		
 
 		<!-- *** REWARD BOX FOR TONGOMOD QUEST-->
 		
@@ -9584,6 +9587,27 @@
 			</effect_group>
 		</item>
 
+		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+		<!-- * EXTRA MAGAZINE ONLY FOR READ (OR SCRAP) -->
+		<item name="7DaysReadMagazine">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="book7DaysRead"/>
+			<property name="DescriptionKey" value="7DaysReadMagazineDesc"/>
+			<property name="Unlocks" value="7DaysReadProgression"/>
+			<property name="Tags" value="csm"/>
+			<property name="Group" value="Books,Mods,BooksOnly"/>
+			<property name="Material" value="MresourceBluePaper"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="500"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="7DaysReadProgression" level="1"/><!-- level="-1" sets a perk to max level -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				<!--<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="7DaysReadProgression" level="1"/>-->
+			</effect_group>
+		</item>
+		
 		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
 	</append>

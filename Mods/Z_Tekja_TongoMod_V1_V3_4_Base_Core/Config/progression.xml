@@ -265,6 +265,13 @@
 
 <!-- *** CRAFTING_SKILLS -->
 	<crafting_skills complete_sound="ui_mag_read_set">
+
+
+		<!-- *** TEST NEW 7 DAYS MAGAZINE FOR CHALLENGE -->
+		<crafting_skill name="7DaysReadProgression" max_level="2" parent="attCrafting" name_key="7DaysReadProgressionName" desc_key="7DaysReadProgressionDesc" long_desc_key="7DaysReadProgressionLongDesc" icon="ui_game_symbol_tool">
+			
+		</crafting_skill>
+		
 	
 	<!-- *** HARVESTING_TOOL_SKILLS -->
 

@@ -537,6 +537,8 @@
 		<item name="electricianSkillMagazine" count="1" loot_prob_template="medHigh"/>
 		<item name="trapsSkillMagazine" count="1" loot_prob_template="medHigh"/>
 		
+		<item name="7DaysReadMagazine" count="1" loot_prob_template="medHigh"/>
+		
 		<item name="bookStoneToolsT1TM" count="1" loot_prob_template="med"/>
 		<item name="bookStoneToolsT2TM" count="1" loot_prob_template="med"/>
 		<item name="bookStoneToolsT3TM" count="1" loot_prob_template="med"/>
