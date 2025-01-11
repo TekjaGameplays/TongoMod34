@@ -863,8 +863,12 @@
 		<item name="medicalBloodBagSchematic" count="1" loot_prob_template="veryLowDelayed"/>
 		<item name="drugVitaminsSchematic" count="1" loot_prob_template="veryLowDelayed"/>
 		<item name="drugPainkillersSchematic" count="1" loot_prob_template="veryLowDelayed"/>
-		<item name="resourceTestosteroneExtractSchematic" count="1" loot_prob_template="veryLowDelayed"/>
-		
+		<item name="resourceTestosteroneExtractSchematic" count="1" loot_prob_template="veryLowDelayed"/>	
+			
+		<item name="modArmorTreasureHunterSchematic" count="1" loot_prob_template="veryLowDelayed"/>
+		<item name="modArmorNightVisionSchematic" count="1" loot_prob_template="veryLowDelayed"/>
+		<item name="modArmorQuadStoragePocketSchematic" count="1" loot_prob_template="veryLowDelayed"/>
+
 	</append>
 	
 	

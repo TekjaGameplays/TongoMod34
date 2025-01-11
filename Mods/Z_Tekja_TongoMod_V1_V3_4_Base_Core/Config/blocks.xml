@@ -338,6 +338,7 @@
 
 		<!-- * PROGRESSION MACHINE (OLD RECIPES MACHINE "TEMPLATE") -->
 		<block name="workingMakina">
+			<!-- Class -->
 			<property name="DescriptionKey" value="workingMakinaDesc"/>
 			<property name="CustomIcon" value="cntCashRegister"/>
 			<property name="Material" value="Mmetal"/>
@@ -360,7 +361,8 @@
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
 
-			<property name="WorkstationIcon" value="ui_game_symbol_perk"/>
+			<!--<property name="WorkstationIcon" value="ui_game_symbol_perk"/>-->
+			<property name="WorkstationIcon" value="ui_game_symbol_shield"/>
 			<property name="CraftActionName" value="lblContextActionMakina"/>
 			<property name="CraftIcon" value="ui_game_symbol_perk"/>
 			<property name="OpenSound" value="open_workbench"/>
@@ -388,35 +390,41 @@
 
 		<!-- * BOOKS MACHINE -->
 		<block name="workingLibros">
-			<property name="UnlockedBy" value="workingLibrosSchematic"/>
+			<property name="UnlockedBy" value="workingLibrosSchematic"/> <!-- *** -->
 			<property name="DescriptionKey" value="workingLibrosDesc"/>
-			<property name="CustomIcon" value="cntBookcaseFull"/>
-			<property name="Material" value="Mwood"/>
-			<property name="MaxDamage" value="400"/>
-			<property name="StabilitySupport" value="false"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/Commercial/bookshelfBottomFullPrefab"/>
-			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="ImposterDontBlock" value="true"/>
-			<property name="IsTerrainDecoration" value="true"/>
-			<property name="Stacknumber" value="1"/>
-			<property name="Class" value="Workstation"/>
+			<property name="CustomIcon" value="cntBookcaseFull"/> <!-- *** -->
+			<property name="Material" value="Mwood"/> <!-- *** -->
+			<property name="MaxDamage" value="400"/> <!-- *** -->
+			<property name="StabilitySupport" value="false"/> <!-- *** -->
+			<!--<property name="CreativeMode" value="Player"/>--> 
+			<property name="Shape" value="ModelEntity"/> <!-- *** -->
+			<property name="Model" value="Entities/Commercial/bookshelfBottomFullPrefab"/> <!-- *** -->
+			<!--<property name="MultiBlockDim" value="2,2,1"/>-->
+			<!--<property name="ModelOffset" value="0.5,0.5,0"/>-->
+			<!--<property name="OnlySimpleRotations" value="true"/>-->
+			<property name="Place" value="TowardsPlacerInverted"/> <!-- *** -->
+			<property name="ImposterDontBlock" value="true"/> <!-- *** -->
+			<property name="IsTerrainDecoration" value="true"/> <!-- *** -->
+			<property name="Stacknumber" value="1"/> <!-- *** -->
+			<property name="Class" value="Workstation"/> <!-- *** -->
 
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="MKLibros"/>
+			<property class="Workstation"> <!-- *** -->
+				<property name="Modules" value="output"/> <!-- *** -->
+				<property name="CraftingAreaRecipes" value="MKLibros"/> <!-- *** -->
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<!--<property name="ToolNames" value="1"/>-->
 			</property>
 
-			<property name="WorkstationIcon" value="ui_game_symbol_book"/>
-			<property name="CraftActionName" value="lblContextActionLibros"/>
-			<property name="CraftIcon" value="ui_game_symbol_book"/>
-			<property name="OpenSound" value="open_workbench"/>
-			<property name="CloseSound" value="close_workbench"/>
-			<property name="CraftSound" value="forge_smelt_click"/>
-			<property name="CraftCompleteSound" value="forge_item_complete"/>
-			<property name="PickupJournalEntry" value="workingLibrosTip"/>
+			<!--<property name="WorkstationIcon" value="ui_game_symbol_book"/>-->
+			<property name="WorkstationIcon" value="ui_game_symbol_shield"/> <!-- *** -->
+			<property name="CraftActionName" value="lblContextActionLibros"/> <!-- *** -->
+			<!--<property name="CraftIcon" value="ui_game_symbol_book"/>-->
+			<property name="CraftIcon" value="ui_game_symbol_shield"/> <!-- *** -->
+			<property name="OpenSound" value="open_workbench"/> <!-- *** -->
+			<property name="CloseSound" value="close_workbench"/> <!-- *** -->
+			<property name="CraftSound" value="forge_smelt_click"/> <!-- *** --> 
+			<property name="CraftCompleteSound" value="forge_item_complete"/> <!-- *** -->
+			<property name="PickupJournalEntry" value="workingLibrosTip"/> 
 
 			<property class="RepairItems">
 				<property name="resourceWood" value="5"/>
@@ -800,8 +808,8 @@
 			<property name="DisplayInfo" value="Name"/>
 			<property name="Shape" value="ModelEntity"/>
 
-			<!--<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/>--><!--alternate for test-->
-			<property name="Model" value="#@modfolder:Resources/TMStorage.unity3d?TMAbandoneBoxPrefab"/>
+			<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/>alternate for test
+			<!--<property name="Model" value="#@modfolder:Resources/TMStorage.unity3d?TMAbandoneBoxPrefab"/>-->
 
 			<property name="ModelOffset" value="0,0,0"/>
 			<property name="Material" value="Mwood_regular"/>
