@@ -9,7 +9,8 @@
 	<!-- NEW WINDOW FOR 3 INPUT AND OUTPUT IN VANILLA FORGE -->
 	<append xpath="/windows">
 		<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-		<window name="windowTongoForgeInput" width="228" height="229" panel="Right"
+		<!--<window name="windowTongoForgeInput" width="228" height="229" panel="Right"-->
+		<window name="windowTongoForgeInput" width="228" height="270" panel="Right"
 			controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
 			<panel style="header.panel" pos="0,2">
@@ -25,10 +26,12 @@
 				</grid>
 
 			</rect>
+			
+			
 
-			<rect name="content2" depth="0" pos="78, -49" width="147" height="222">
+			<rect name="content2" depth="0" pos="78, -49" width="147" height="222"> 
 				<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
-				<grid rows="6" cols="1" pos="3,-3" cell_width="147" cell_height="34"  repeat_content="true">
+				<grid rows="6" cols="1" pos="3,-8" cell_width="147" cell_height="37"  repeat_content="true"> 
 					<forge_material name="0"/>
 				</grid>
 			</rect>
@@ -54,11 +57,7 @@
 		</window>-->
 
 
-
 		
-
-
-
 
 
 	</append>
