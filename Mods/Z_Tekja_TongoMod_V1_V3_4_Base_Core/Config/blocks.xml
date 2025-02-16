@@ -348,6 +348,11 @@
 			<property name="Shape" value="ModelEntity"/>
 
 			<property name="Model" value="@:Entities/LootContainers/cashRegisterClosedPrefab.prefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/ProgressionPile.unity3d?AtrilPrefab"/>-->
+
+
 			<property name="ModelOffset" value="0,0,0"/>
 
 			<property name="ImposterDontBlock" value="true"/>
@@ -398,7 +403,14 @@
 			<property name="StabilitySupport" value="false"/> <!-- *** -->
 			<!--<property name="CreativeMode" value="Player"/>--> 
 			<property name="Shape" value="ModelEntity"/> <!-- *** -->
-			<property name="Model" value="Entities/Commercial/bookshelfBottomFullPrefab"/> <!-- *** -->
+			
+			
+			<property name="Model" value="Entities/Commercial/bookshelfBottomFullPrefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/TableBooks.unity3d?TableBooksPrefab"/>-->
+
+
 			<!--<property name="MultiBlockDim" value="2,2,1"/>-->
 			<!--<property name="ModelOffset" value="0.5,0.5,0"/>-->
 			<!--<property name="OnlySimpleRotations" value="true"/>-->
@@ -455,6 +467,11 @@
 			<property name="Shape" value="ModelEntity"/>
 
 			<property name="Model" value="@:Entities/LootContainers/mailBox_01Prefab.prefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/AutominerTypeA.unity3d?AutominerTypeAPrefab"/>-->
+
+
 			<property name="ModelOffset" value="0,0,0"/>
 			<property name="MultiBlockDim" value="1,1,1"/>
 
@@ -506,7 +523,17 @@
 			<property name="StabilitySupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
+			
+			
 			<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/AdvancedOven.unity3d?MicroPrefab"/>-->
+			
+			<!--<property name="Model" value="#@modfolder:Resources/nombrearchivo.unity3d?nombrePrefab"/>-->
+			
+			
+			
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
@@ -563,7 +590,15 @@
 			<property name="StabilitySupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
+			
+			
 			<property name="Model" value="Entities/Appliances/ACUnitPrefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/MachineSowac.unity3d?SovietMachinePrefab"/>-->
+
+
+
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
@@ -615,7 +650,15 @@
 			<property name="StabilitySupport" value="true"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
+			
+			
 			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/AutominerTypeB.unity3d?AutominerTypeBPrefab"/>-->
+
+
+
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
@@ -670,6 +713,18 @@
 			<property name="Shape" value="ModelEntity"/>
 
 			<property name="Model" value="@:Entities/LootContainers/GasGrill_FullPrefab.prefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/DysmantleDrill.unity3d?DysmantleBigPrefab"/>-->
+			<!--<property name="MultiBlockDim" value="1,2,1"/>-->
+
+
+			<!-- test -->
+			<!--<property name="Model" value="#@modfolder:Resources/VendingMachineTestPrefab.unity3d?VendingMachineTestPrefab"/>-->
+			<!--<property name="MultiBlockDim" value="1,2,1"/>-->
+			
 
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="ImposterDontBlock" value="true"/>
@@ -724,7 +779,12 @@
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
 
+			
 			<property name="Model" value="@:Entities/LootContainers/basketShoppingEmptyPrefab.prefab"/>
+
+			<!-- Modelo nuevo -->
+			<!--<property name="Model" value="#@modfolder:Resources/SeedsCup.unity3d?MortarAndPestlePrefab"/>-->
+
 
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="ImposterDontBlock" value="true"/>
@@ -808,8 +868,8 @@
 			<property name="DisplayInfo" value="Name"/>
 			<property name="Shape" value="ModelEntity"/>
 
-			<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/>alternate for test
-			<!--<property name="Model" value="#@modfolder:Resources/TMStorage.unity3d?TMAbandoneBoxPrefab"/>-->
+			<!--<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/> --><!-- alternate for test-->
+			<property name="Model" value="#@modfolder:Resources/TMStorage.unity3d?TMAbandoneBoxPrefab"/>
 
 			<property name="ModelOffset" value="0,0,0"/>
 			<property name="Material" value="Mwood_regular"/>
@@ -1180,6 +1240,49 @@
 			<property name="Group" value="Building,advBuilding,Quimics"/>
 			<property name="Tags" value="electricianSkill"/>
 		</block>-->
+
+		<block name="classTestVendingMachine">
+			<property name="Extends" value="cntVendingMachine" param1="Buff"/>
+			<!--<property name="CustomIcon" value="cntVendingMachine" />-->
+			<property name="CustomIcon" value="vendingTest" />
+			<property name="CreativeMode" value="Player"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="Shape" value="ModelEntity" />
+
+			<!--<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>-->
+
+			<!--<property name="ImposterExchange" value="imposterBlock" param1="143"/>-->
+			<!--<property name="Model" value="#@modfolder:Resources/ClassVendingMachines.unity3d?classSurvivalistVendingMachinePrefab"/>-->
+
+			<!-- test -->
+			<property name="Model" value="#@modfolder:Resources/VendingMachineTestPrefab.unity3d?VendingMachineTestPrefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			
+			<property name="TraderID" value="32"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="0"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="100"/>
+				<property name="resourceForgedSteel" value="100"/>
+				<!--<property name="forgedTungsten" value="100"/>-->
+			</property>
+			<drop event="Destroy" name="resourceForgedIron" count="350"/>
+			<drop event="Destroy" name="resourceForgedSteel" count="175"/>
+			<!--<drop event="Destroy" name="forgedTungsten" count="105"/>-->
+			<drop event="Destroy" name="resourceMechanicalParts" count="140"/>
+			<drop event="Destroy" name="resourceElectricParts" count="105"/>
+			
+			<property name="DescriptionKey" value="classTestVendingMachineDesc" />
+
+			<!--<property name="DescriptionKey" value="workingDysmantleDesc"/>-->
+
+			<property name="FilterTags" value="floot,ffurniture"/>
+			<!--<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>-->
+			<!--<property name="CanPickup" value="true"/>-->
+			<!--<property name="TakeDelay" value="3"/>-->
+		</block>
 	
 
 	</append>
