@@ -1,0 +1,25 @@
+{
+  "ChatColor": "[FFCC00]",
+  "ServerName": "[TM - ST]",
+  "Debug": false,
+  "BloodMoon": {
+	"ChatColor": "[FC0528]",
+    "Enabled": true,
+    "Delay": 60
+  },
+  "BloodMoonReward": {
+	"ChatColor": "[FC0528]",
+    "Enabled": true,
+  },
+  "ScoutHorde": {
+	"ChatColor": "[FFC300]",
+    "Enabled": true,
+	"Delay": 60,
+	"MinZombie": 8,
+	"MaxZombie": 15
+  },
+  "SoundMachiene": {
+    "Enabled": true,
+	"Delay": 30,
+  },
+}
