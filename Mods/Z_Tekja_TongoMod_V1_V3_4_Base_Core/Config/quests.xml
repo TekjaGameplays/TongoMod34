@@ -338,14 +338,14 @@
 			<reward type="Exp" value="800"/>
 			<reward type="Item" id="casinoCoin" value="400"/>
 
-			<reward type="LootItem" id="groupQuestResourcesT0" ischosen="true" value="1"/>
-			<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
-			<reward type="LootItem" id="groupQuestcasinoCoinT1" ischosen="true" value="2"/>
+			<!--<reward type="LootItem" id="groupQuestResourcesT0" ischosen="true" value="1"/>-->
+			<!--<reward type="LootItem" id="groupQuestResourcesT0,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>-->
+			<reward type="LootItem" id="groupQuestcasinoCoinStartTM" ischosen="true" value="1"/>
 			<reward type="LootItem" id="groupQuestWrench" ischosen="true" value="1"/>
 			<reward type="LootItem" id="groupQuestT1Books" ischosen="true" value="2"/>
 			<reward type="LootItem" id="groupQuestT1MeleeMods" ischosen="true" value="2"/>
 			<reward type="LootItem" id="groupQuestT1RangedMods" ischosen="true" value="2"/>
-			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
+			<!--<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>-->
 		</quest>
 		
 
@@ -378,7 +378,7 @@
 			<reward type="Quest" id="quest_Soldier1"/>
 			<reward type="Quest" id="quest_Final"/>
 			<reward type="Item" id="groupQuestStarterPackTMBundle"/>
-			<reward type="SkillPoints" value="5" chainreward="false"/>
+			<reward type="SkillPoints" value="1" chainreward="false"/>
 
 		</quest>
 
@@ -602,7 +602,7 @@
 
 			<reward type="Item" id="questRewardConstructorMagazineBundle" value="1"/>
 			<reward type="Item" id="toolDewGathererSchematic" value="1"/>
-			<reward type="Item" id="toolAnvilSchematic" value="1"/>
+			<!--<reward type="Item" id="toolAnvilSchematic" value="1"/>-->
 			<reward type="Item" id="casinoCoin" value="50"/>
 			<reward type="Exp" value="100"/>
 			<reward type="Quest" id="quest_Builder13"/>
@@ -3404,7 +3404,7 @@
 			<property name="difficulty" value="hard"/>
 			<property name="shareable" value="false"/>
 
-			<objective type="EntityKill" id="animalBear" value="10"/>
+			<objective type="EntityKill" id="animalBear,animalBearSmall" value="10"/>
 
 			<reward type="Item" id="questRewardHunterMagazineBundle" value="1"/>
 			<reward type="Item" id="casinoCoin" value="2000"/>
@@ -4539,7 +4539,6 @@
 			<objective type="FetchKeep" id="meleeToolSalvageMegaImpactDriverTM" value="1"/>
 
 			<reward type="Item" id="questRewardMechanicMagazineBundle" value="1"/>
-			<reward type="Item" id="workingAutominerADVSchematic" value="1" chainreward="true"/>
 			<reward type="Item" id="casinoCoin" value="4000"/>
 			<reward type="Exp" value="8000"/>
 			<reward type="Item" id="itemTrophyMechanicTM" value="1" chainreward="true"/>
@@ -5151,7 +5150,7 @@
 			<property name="shareable" value="false"/>
 
 			<objective type="EntityKill" id="zombieBiker,zombieBikerFeral,zombieBikerRadiated" value="2"/>
-			<objective type="EntityKill" id="zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated" value="2"/>
+			<objective type="EntityKill" id="zombieFatHawaiian,zombieFatHawaiianFeral,zombieFatHawaiianRadiated,zombieBowler,zombieBowlerFeral,zombieBowlerRadiated" value="2"/>
 
 			<reward type="Item" id="modArmorPlatingGrapheneTMSchematic" value="1"/>
 			<reward type="Item" id="questRewardSoldierMagazineBundle" value="1"/>
@@ -6581,6 +6580,7 @@
 			<objective type="FetchKeep" id="itemTrophyMechanicTM" value="1" phase="1"/>
 			<objective type="FetchKeep" id="itemTrophySoldierTM" value="1" phase="1"/>
 
+			<reward type="Item" id="workingAutominerADVSchematic" value="1" chainreward="true"/>
 			<reward type="Item" id="casinoCoin" value="100000"/>
 			<reward type="Exp" value="100000"/>
 			<reward type="Quest" id="quest_FinalTip"/>
@@ -6601,6 +6601,8 @@
 				<property name="title" value="quest_Final_description_title"/>
 				<property name="delay" value="3"/>
 			</action>
+
+
 
 		</quest>
 

@@ -871,7 +871,7 @@
 			<!--<property name="Model" value="@:Entities/LootContainers/shippingCratePrefab.prefab"/> --><!-- alternate for test-->
 			<property name="Model" value="#@modfolder:Resources/TMStorage.unity3d?TMAbandoneBoxPrefab"/>
 
-			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ModelOffset" value="0,.5,0"/>
 			<property name="Material" value="Mwood_regular"/>
 			<property name="Path" value="solid"/>
 			<drop event="Destroy" count="0"/>
@@ -1257,7 +1257,8 @@
 			<!--<property name="Model" value="#@modfolder:Resources/ClassVendingMachines.unity3d?classSurvivalistVendingMachinePrefab"/>-->
 
 			<!-- test -->
-			<property name="Model" value="#@modfolder:Resources/VendingMachineTestPrefab.unity3d?VendingMachineTestPrefab"/>
+			<!--<property name="Model" value="#@modfolder:Resources/VendingMachineTestPrefab.unity3d?VendingMachineTestPrefab"/>-->
+			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Candycane/candycaneShivPrefab.prefab"/>
 			<property name="MultiBlockDim" value="1,2,1"/>
 			
 			<property name="TraderID" value="32"/>

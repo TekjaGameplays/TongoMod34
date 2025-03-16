@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raiz>
 
+	<!-- REMOVE FORGOTEN ELIXIR FROM TRADERS -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@name='drinkJarGrandpasForgettingElixir']"/>
+	
 	<!-- REMOVE MAGAZINES FROM TRADERS -->
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']/item[@name='harvestingToolsSkillMagazine']"/>
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']/item[@name='repairToolsSkillMagazine']"/>
@@ -238,15 +241,15 @@
 
 	<!-- RARE TOOLS -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
-		<item name="meleeToolMegaAugerTM" count="1" prob="0.20" quality="3,6"/>
-		<item name="meleeToolMegaChainsawTM" count="1" prob="0.20" quality="3,6"/>
+		<item name="meleeToolMegaAugerTM" count="1" prob="0.20" quality="1,6"/>
+		<item name="meleeToolMegaChainsawTM" count="1" prob="0.20" quality="1,6"/>
 		<item name="meleeToolRepairMegaNailgunTM" count="1" prob="0.40" />
-		<item name="meleeToolSalvageMegaImpactDriverTM" count="1" prob="0.20" quality="3,6"/>
+		<item name="meleeToolSalvageMegaImpactDriverTM" count="1" prob="0.20" quality="1,6"/>
 	</append>
 
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
+	<!--<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
 		<item name="workingAutominerADV" count="1" prob="0.15"/>
-	</append>
+	</append>-->
 
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
 		<item name="itemToolKryptonite" count="1" prob="0.80"/>
@@ -284,18 +287,18 @@
 
 	<!-- ARMOR (LIGHT) -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLight']">
-		<item name="armorClothHatGrapheneTM" mods="modArmorHelmetLight" mod_chance="1" quality="4,6"/>
-		<item name="armorClothJacketGrapheneTM" quality="4,6"/>
-		<item name="armorClothGlovesGrapheneTM" quality="4,6"/>
-		<item name="armorClothBootsGrapheneTM" quality="4,6"/>
+		<item name="armorClothHatGrapheneTM" mods="modArmorHelmetLight" mod_chance="1" quality="1,6"/>
+		<item name="armorClothJacketGrapheneTM" quality="1,6"/>
+		<item name="armorClothGlovesGrapheneTM" quality="1,6"/>
+		<item name="armorClothBootsGrapheneTM" quality="1,6"/>
 	</append>
 
 	<!-- ARMOR (HEAVY) -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavy']">
-		<item name="armorGrapheneHelmetTM" mods="modArmorHelmetLight" mod_chance="1" quality="4,6"/>
-		<item name="armorGrapheneChestTM" quality="4,6"/>
-		<item name="armorGrapheneGlovesTM" quality="4,6"/>
-		<item name="armorGrapheneBootsTM" quality="4,6"/>
+		<item name="armorGrapheneHelmetTM" mods="modArmorHelmetLight" mod_chance="1" quality="1,6"/>
+		<item name="armorGrapheneChestTM" quality="1,6"/>
+		<item name="armorGrapheneGlovesTM" quality="1,6"/>
+		<item name="armorGrapheneBootsTM" quality="1,6"/>
 	</append>
 
 	<!-- ALWAYS IN TRADERS -->

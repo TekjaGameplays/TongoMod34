@@ -1340,10 +1340,10 @@
 	<!-- * SALVAGE_OPERATIONS -->
 	<perk name="perkSalvageOperations" parent="skillMeleeTool" name_key="perkSalvageOperationsName" desc_key="perkSalvageOperationsDesc" icon="ui_game_symbol_scrap">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="1" desc_key="reqMeleeLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="2" desc_key="reqMeleeLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="5" desc_key="reqMeleeLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="5" desc_key="reqMeleeLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="10" desc_key="reqMeleeLevel10"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.1,-.5" tags="salvageScrap"/><!-- does not work on scrapping -->
@@ -1594,10 +1594,10 @@
 	<!-- * MINER69R -->
 	<perk name="perkMiner69r" parent="skillMeleeTool" name_key="perkMiner69rName" desc_key="perkMiner69rDesc" icon="ui_game_symbol_mining">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="1" desc_key="reqMeleeLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="2" desc_key="reqMeleeLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="5" desc_key="reqMeleeLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="4" desc_key="reqMeleeLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="10" desc_key="reqMeleeLevel10"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="BlockDamage" operation="perc_add" level="1,5" value=".3,1.5" tags="perkMiner69r"/>
@@ -1644,10 +1644,10 @@
 	<!-- * MOTHER_LODE -->
 	<perk name="perkMotherLode" parent="skillMeleeTool" name_key="perkMotherLodeName" desc_key="perkMotherLodeDesc" icon="ui_game_symbol_mother_load">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="1" desc_key="reqMeleeLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="2" desc_key="reqMeleeLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="5" desc_key="reqMeleeLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="3" desc_key="reqMeleeLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="5" desc_key="reqMeleeLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="7" desc_key="reqMeleeLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attMelee" operation="GTE" value="10" desc_key="reqMeleeLevel10"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="HarvestCount" operation="perc_add" level="1,5" value=".2,1" tags="oreWoodHarvest"/>
@@ -3265,10 +3265,10 @@
 	
 	<!-- * MAD_GUNSLINGER (PISTOLERO_LOCO) -->
 	<perk name="perkRangedWeapons" parent="skillTongo" max_level="5" name_key="perkRangedWeaponsName" desc_key="perkRangedWeaponsDesc" icon="ui_game_symbol_T_ranged">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel07"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel02"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel04"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel06"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel08"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="10" desc_key="reqTongoLevel10"/></level_requirements>
 
 		<effect_group>
@@ -3301,7 +3301,7 @@
 	   <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="3" desc_key="reqTongoLevel03"/></level_requirements> 
 	   <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="5" desc_key="reqTongoLevel05"/></level_requirements> 
 	   <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="7" desc_key="reqTongoLevel07"/></level_requirements> 
-	   <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel10"/></level_requirements>
+	   <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel09"/></level_requirements>
 
 	   <effect_group> 
 	     <passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5" value="-.01,-.03,-.05,-.07,-.1"/> 
@@ -3325,10 +3325,10 @@
 
 	<!-- * UNCLE_THE_ROD (TIO_LA_VARA) -->
 	<perk name="perkTiolavara" max_level="5" parent="skillTongo" name_key="perkTiolavaraName" desc_key="perkTiolavaraDesc" icon="ui_game_symbol_T_melee_TM">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel07"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel02"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel04"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel06"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel08"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="10" desc_key="reqTongoLevel10"/></level_requirements>
         
 		<effect_group>
@@ -3419,7 +3419,7 @@
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="3" desc_key="reqTongoLevel03"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="5" desc_key="reqTongoLevel05"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="7" desc_key="reqTongoLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel10"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel09"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="TraderStage" operation="base_add" level="1,5" value="5,20"/>
@@ -3445,10 +3445,10 @@
 
 	<!-- * SQUIRE (ESCUDERO) -->
 	<perk name="perkEscudero" parent="skillTongo" max_level="5" name_key="perkEscuderoName" desc_key="perkEscuderoDesc" icon="ui_game_symbol_shield">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel07"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="2" desc_key="reqTongoLevel02"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="4" desc_key="reqTongoLevel04"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="6" desc_key="reqTongoLevel06"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="8" desc_key="reqTongoLevel08"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="10" desc_key="reqTongoLevel10"/></level_requirements>
 
 		<effect_group>
@@ -3487,7 +3487,7 @@
 		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="3" desc_key="reqTongoLevel03"/></level_requirements>
 		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="5" desc_key="reqTongoLevel05"/></level_requirements>
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="7" desc_key="reqTongoLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel10"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attTongo" operation="GTE" value="9" desc_key="reqTongoLevel09"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="CraftingTime" operation="perc_add" level="1,2,3,4,5" value="-0.12,-0.25,-0.39,-0.59,-.80" tags="perkMasterTool"/>

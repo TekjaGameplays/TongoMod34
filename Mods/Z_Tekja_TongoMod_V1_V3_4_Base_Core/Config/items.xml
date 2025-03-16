@@ -354,7 +354,7 @@
 	<append xpath="/items/item[@name='drinkJarBoiledWater']"> <property name="Group" value="Food/Cooking,CFDrink/Cooking,Oaqua,OchemiSci"/> </append>
 	<append xpath="/items/item[@name='drinkJarRiverWater']"> <property name="Group" value="Food/Cooking,CFDrink/Cooking,Oaqua"/> </append>
 	<append xpath="/items/item[@name='drinkCanMegaCrush']"> <property name="Group" value="Food/Cooking,CFDrink/Cooking,Oaqua"/> </append>
-	<append xpath="/items/item[@name='resourcePaint']"> <property name="Group" value="Food/Cooking,CFDrink/Cooking,Ochem"/> </append>
+	<append xpath="/items/item[@name='resourcePaint']"> <property name="Group" value="Resources,Chemicals,CFChemicals,Ochem"/> </append>
 	<append xpath="/items/item[@name='resourceOil']/property[@name='Group']/@value">,Ochem</append>
 
 	<!-- new recipes for vanilla items -->
@@ -3884,6 +3884,7 @@
 			<property name="Material" value="MresourceGraphite"/>
 			<property name="Stacknumber" value="10000"/>
 			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="50"/>
 			<property name="Group" value="Resources"/>
 		</item>
 		
@@ -3917,6 +3918,7 @@
 			<property name="Material" value="Mmetal"/>
 			<property name="TintColor" value="0,0,0"/>
 			<property name="RepairTools" value="resourceScrapIron"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -4049,7 +4051,7 @@
 			<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 			<property name="Group" value="Tools/Traps,Herramientas"/>
 			<property name="RepairExpMultiplier" value="10.8"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="UnlockedBy" value="craftingHarvestingToolsTongoT1TM"/>
 			<property name="ShowQuality" value="true"/>
@@ -4135,7 +4137,7 @@
 			<property name="SoundIdle" value="chainsaw_idle"/>
 			<property name="Group" value="Tools/Traps,Herramientas"/>
 			<property name="RepairExpMultiplier" value="10.8"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="UnlockedBy" value="craftingHarvestingToolsTongoT1TM"/>
 			<property name="ShowQuality" value="true"/>
@@ -4220,7 +4222,7 @@
 			<property name="TintColor" value="0,0,0"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="SoundJammed" value="weapon_jam"/>
 			<property name="Group" value="Tools/Traps,Herramientas"/>
@@ -4299,7 +4301,7 @@
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="Material" value="MresourceGraphene"/>
 			<property name="Weight" value="0"/>
@@ -4371,12 +4373,13 @@
 			<property name="HoldType" value="47"/>
 			<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab"/>
 			<property name="Material" value="MresourceGraphene"/>
-			<property name="Weight" value="0"/>
+			<!--<property name="Weight" value="0"/>-->
 			<property name="TintColor" value="0,0,0"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="EconomicValue" value="700"/>
 			<property name="TraderStageTemplate" value="baseTier0"/>
+			<property name="EconomicBundleSize" value="1"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy"/>
 			<property name="Group" value="Ammo/Weapons,Melee Weapons,Herramientas"/>
@@ -4695,6 +4698,7 @@
 			<!--<property name="Meshfile" value="#@modfolder:Resources/BateTest.unity3d?BateTestPrefab" />-->
 			<!--<property name="HandMeshfile" value="#@modfolder:Resources/BateTest.unity3d?BateTestPrefab" />-->
 			
+			<!-- NEW OLD MODEL -->
 			<!--<property name="Meshfile" value="#@modfolder:Resources/SpikedClub2.unity3d?SpikedClub2Prefab" />-->
 			<!--<property name="HandMeshfile" value="#@modfolder:Resources/SpikedClub2.unity3d?SpikedClub2Prefab" />-->
 			
@@ -4708,7 +4712,7 @@
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="UnlockedBy" value="craftingMeleeWeaponTongoT1TM"/>
 			<property name="ShowQuality" value="true"/>
@@ -4753,23 +4757,24 @@
 			</property>
 
 			<effect_group name="meleeWpnSpikedClub">
-				<passive_effect name="EntityDamage" operation="base_set" value="34.8" tags="perkTiolavara"/><!-- meleeWpnSpikedClub -->
-				<passive_effect name="BlockDamage" operation="base_set" value="29.2" tags="perkTiolavara"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="76" tags="perkTiolavara"/>
 				<passive_effect name="StaminaLoss" operation="base_set" value="10.5" tags="primary"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="200,500" tier="1,6" tags="perkTiolavara"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkTiolavara"/>
 				<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkTiolavara"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTiolavara"/>
-
 				<passive_effect name="ModSlots" operation="base_set" value="4,4,4,5,5,6" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".25" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="3000" tags="EconomicValue"/>
-
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkTiolavara"/><!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
-				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkTiolavara"/><!-- random BlockDmg -->
-				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
+				
+				
+				<passive_effect name="EntityDamage" operation="base_set" value="35.8" tags="perkTiolavara"/><!-- meleeWpnSpikedClub -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.05,.15" tags="perkTiolavara"/><!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.8" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
+				
+				<passive_effect name="BlockDamage" operation="base_set" value="32" tags="perkTiolavara"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.05,.15" tags="perkTiolavara"/><!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.8" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
 
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
@@ -4801,7 +4806,7 @@
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy1"/>
-			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="TraderStageTemplate" value="baseTier3"/>
 			<property name="Group" value="Ammo/Weapons,Melee Weapons,Armas"/>
 
@@ -4858,11 +4863,11 @@
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".25" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="3000" tags="EconomicValue"/>
 				<passive_effect name="EntityDamage" operation="base_set" value="64" tags="perkTiolavara"/><!-- meleeWpnGrapheneSledgehammerTM -->
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkTiolavara"/><!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.03,.12" tags="perkTiolavara"/><!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.8" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
 				<passive_effect name="BlockDamage" operation="base_set" value="99" tags="perkTiolavara"/>
-				<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkTiolavara"/><!-- random BlockDmg -->
-				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.03,.12" tags="perkTiolavara"/><!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.8" tier="2,6" tags="perkTiolavara"/><!-- tier bonus -->
 				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
@@ -4948,9 +4953,9 @@
 				<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkRangedWeapons"/><!-- damage offset -->
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.02,.02" tags="perkRangedWeapons"/><!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
+				<passive_effect name="EntityDamage" operation="base_add" value="15" tags="perkRangedWeapons"/><!-- damage offset -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.02,.08" tags="perkRangedWeapons"/><!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
 				<passive_effect name="BlockDamage" operation="perc_add" value="-.08,.08" tags="perkRangedWeapons"/><!-- random BlockDmg -->
 				<passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
 				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkRangedWeapons"/><!-- random WeaponHandling -->
@@ -4962,13 +4967,13 @@
 				<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkRangedWeapons"/>
 				<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkRangedWeapons"/>
 
-				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.3" tags="perkRangedWeapons"/>
-				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3" tags="perkRangedWeapons"/>
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".5" tags="perkRangedWeapons"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1" tags="perkRangedWeapons"/>
 				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3" tags="perkRangedWeapons"/>
 				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3" tags="perkRangedWeapons"/>
 
 				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6" tags="perkRangedWeapons"/>
-				<passive_effect name="WeaponHandling" operation="base_set" value=".4" tags="perkRangedWeapons"/>
+				<passive_effect name="WeaponHandling" operation="base_set" value=".8" tags="perkRangedWeapons"/>
 
 				<passive_effect name="DegradationMax" operation="base_set" value="500,700" tier="1,6" tags="perkRangedWeapons"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkRangedWeapons"/>
@@ -5035,7 +5040,7 @@
 				<property name="zoomTriggerEffectPullDualsense" value="PistolZoom"/>
 				<property name="zoomTriggerEffectPullXb" value="PistolZoom"/>
 			</property>
-			<effect_group name="gunHandgunT3SMG5">
+			<effect_group name="gunHandgunMillionaireTM">
 				<passive_effect name="MaxRange" operation="base_set" value="65" tags="perkRangedWeapons"/>
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="30" tags="perkRangedWeapons"/>
 				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tier="1,6" tags="perkRangedWeapons"/><!-- random effective rng -->
@@ -5046,9 +5051,9 @@
 				<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="3000" tags="EconomicValue"/>
-				<passive_effect name="EntityDamage" operation="base_add" value="15" tags="perkRangedWeapons"/><!-- damage offset -->
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.02,.02" tags="perkRangedWeapons"/><!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".05,.25" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
+				<passive_effect name="EntityDamage" operation="base_add" value="20" tags="perkRangedWeapons"/><!-- damage offset -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.02,.08" tags="perkRangedWeapons"/><!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".08,.55" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
 				<passive_effect name="BlockDamage" operation="perc_add" value="-.08,.08" tags="perkRangedWeapons"/><!-- random BlockDmg -->
 				<passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkRangedWeapons"/><!-- tier bonus -->
 				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkRangedWeapons"/><!-- random WeaponHandling -->

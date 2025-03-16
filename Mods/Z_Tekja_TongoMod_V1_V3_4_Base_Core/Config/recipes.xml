@@ -114,11 +114,11 @@
 			<ingredient name="resourceClayLump" count="10"/>
 		</recipe>
 
-		<recipe name="treeStumpPOI" count="1" craft_time="1" craft_area="workbench" tags="workbenchCrafting">
+		<!--<recipe name="treeStumpPOI" count="1" craft_time="1" craft_area="workbench" tags="workbenchCrafting">
 			<ingredient name="resourceWood" count="100"/>
 			<ingredient name="resourceYuccaFibers" count="10"/>
 			<ingredient name="resourceClayLump" count="10"/>
-		</recipe>
+		</recipe>-->
 
 		<recipe name="resourceSewingKit" count="1" craft_time="75" craft_area="workbench" tags="workbenchCrafting">
 			<ingredient name="resourceForgedIron" count="1"/>

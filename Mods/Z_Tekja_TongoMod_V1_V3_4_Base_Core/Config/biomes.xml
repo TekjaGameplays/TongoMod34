@@ -2,11 +2,11 @@
 <raiz>
 
 	<!-- NORMALIZE LOOT IN ALL BIOMES -->
-	<set xpath="//biome[@name='pine_forest']/@lootstage_modifier">1.75</set>
-	<set xpath="//biome[@name='desert']/@lootstage_modifier">1.75</set>
-	<set xpath="//biome[@name='snow']/@lootstage_modifier">1.75</set>
-	<set xpath="//biome[@name='burnt_forest']/@lootstage_modifier">1.75</set>
-	<set xpath="//biome[@name='wasteland']/@lootstage_modifier">1.75</set>
+	<set xpath="//biome[@name='pine_forest']/@lootstage_modifier">1.25</set>
+	<set xpath="//biome[@name='desert']/@lootstage_modifier">1.25</set>
+	<set xpath="//biome[@name='snow']/@lootstage_modifier">1.25</set>
+	<set xpath="//biome[@name='burnt_forest']/@lootstage_modifier">1.25</set>
+	<set xpath="//biome[@name='wasteland']/@lootstage_modifier">1.25</set>
 
 	<set xpath="//biome[@name='pine_forest']/@lootstage_bonus">10</set>
 	<set xpath="//biome[@name='desert']/@lootstage_bonus">10</set>
@@ -14,17 +14,17 @@
 	<set xpath="//biome[@name='burnt_forest']/@lootstage_bonus">10</set>
 	<set xpath="//biome[@name='wasteland']/@lootstage_bonus">10</set>
 
-	<set xpath="//biome[@name='pine_forest']/@gamestage_modifier">1.8</set>
-	<set xpath="//biome[@name='desert']/@gamestage_modifier">1.8</set>
-	<set xpath="//biome[@name='snow']/@gamestage_modifier">1.8</set>
-	<set xpath="//biome[@name='burnt_forest']/@gamestage_modifier">1.8</set>
-	<set xpath="//biome[@name='wasteland']/@gamestage_modifier">1.8</set>
+	<set xpath="//biome[@name='pine_forest']/@gamestage_modifier">1.4</set>
+	<set xpath="//biome[@name='desert']/@gamestage_modifier">1.4</set>
+	<set xpath="//biome[@name='snow']/@gamestage_modifier">1.4</set>
+	<set xpath="//biome[@name='burnt_forest']/@gamestage_modifier">1.4</set>
+	<set xpath="//biome[@name='wasteland']/@gamestage_modifier">1.4</set>
 
-	<set xpath="//biome[@name='pine_forest']/@gamestage_bonus">30</set>
-	<set xpath="//biome[@name='desert']/@gamestage_bonus">30</set>
-	<set xpath="//biome[@name='snow']/@gamestage_bonus">30</set>
-	<set xpath="//biome[@name='burnt_forest']/@gamestage_bonus">30</set>
-	<set xpath="//biome[@name='wasteland']/@gamestage_bonus">30</set>
+	<set xpath="//biome[@name='pine_forest']/@gamestage_bonus">7</set>
+	<set xpath="//biome[@name='desert']/@gamestage_bonus">7</set>
+	<set xpath="//biome[@name='snow']/@gamestage_bonus">7</set>
+	<set xpath="//biome[@name='burnt_forest']/@gamestage_bonus">7</set>
+	<set xpath="//biome[@name='wasteland']/@gamestage_bonus">7</set>
 
 	<set xpath="//biome[@name='pine_forest']/@difficulty">1</set>
 	<set xpath="//biome[@name='desert']/@difficulty">1</set>

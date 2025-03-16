@@ -7,22 +7,32 @@
 
 		<!-- *** WILD_GAME_FOREST -->
 		<entitygroup name="WildGameForest">
-			animalRabbit, 30
-			animalChicken, 30
-			animalDoe, 15
-			animalStag, 15
-			animalBoar, 5
-			animalCoyote, 5
+			animalRabbit, 28
+			animalChicken, 28
+			animalDoe, 13
+			animalStag, 13
+			animalBoar, 3
+			animalCoyote, 3
+
+			<!-- TM ANIMALS -->
+			animalChickenHostileIrradiationElite, 4
+			animalChickenHostileElectricElite, 4
+			animalChickenHostileFireElite, 4
 		</entitygroup>
 
 		<!-- *** WILD_GAME_FOREST_NIGHT -->
 		<entitygroup name="WildGameForestNight">
-			animalRabbit, 30
-			animalChicken, 30
-			animalDoe, 15
-			animalStag, 15
-			animalBoar, 5
-			animalCoyote, 5
+			animalRabbit, 28
+			animalChicken, 28
+			animalDoe, 13
+			animalStag, 13
+			animalBoar, 3
+			animalCoyote, 3
+			
+			<!-- TM ANIMALS -->
+			animalChickenHostileIrradiationElite, 4
+			animalChickenHostileElectricElite, 4
+			animalChickenHostileFireElite, 4
 		</entitygroup>
 
 		<!-- *** ENEMY_ANIMAL_FOREST -->
@@ -31,10 +41,6 @@
 			animalCoyote, 20
 		</entitygroup>
 
-		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
-		<!--<entitygroup name="EnemyAnimalsBurntForestAny">animalCoyote, 5</entitygroup>-->
-
-		<!-- *** BURNT_FOREST -->
 		<!-- *** ENEMY_ANIMAL_BURNT_FOREST_ANY -->
 		<entitygroup name="EnemyAnimalsBurntForestAny">
 			animalSnake, 40
@@ -54,17 +60,29 @@
 		<!-- *** ENEMY_ANIMAL_DESERT -->
 		<entitygroup name="EnemyAnimalsDesert">
 			animalCoyote, 30
-			animalZombieVulture, 30
+			animalZombieVulture, 10
 			animalSnake, 25
-			animalBoar, 15
+			animalBoar, 7
+			
+			<!-- TM ANIMALS -->
+			animalZombieVultureElite, 7
+			animalDireWolfIrradiationElite, 7
+			animalDireWolfElectricElite, 7
+			animalDireWolfFireElite, 7
 		</entitygroup>
 
 		<!-- *** ENEMY_ANIMAL_DESERT_NIGHT-->
 		<entitygroup name="EnemyAnimalsDesertNight">
 			animalCoyote, 30
-			animalZombieVulture, 30
+			animalZombieVulture, 10
 			animalSnake, 25
-			animalBoar, 15
+			animalBoar, 7
+
+			<!-- TM ANIMALS -->
+			animalZombieVultureElite, 7
+			animalDireWolfIrradiationElite, 7
+			animalDireWolfElectricElite, 7
+			animalDireWolfFireElite, 7
 		</entitygroup>
 
 		<!-- *** ENEMY_ANIMAL_SNOW-->
@@ -181,30 +199,7 @@
 
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
-	<append xpath="/entitygroups">
-
-		
-
-		<!-- *** ENEMY_ANIMAL_SNOW_NIGHT -->
-		<!--<entitygroup name="EnemyAnimalsSnowNight">
-			animalMountainLion, 15
-			animalWolf, 13
-			animalBear, 10
-			animalBearSmall, 7
-			none, 55
-		</entitygroup>-->
-
-		<!-- *** ENEMY_ANIMAL_WASTELAND -->
-		<!--<entitygroup name="EnemyAnimalsWasteland">
-			animalSnake, 5
-			animalZombieVulture, 5
-			animalZombieDog, 10
-			animalDireWolf, 5
-			animalZombieBear, 10
-		</entitygroup>-->
-
-
-	</append>
+	
 	
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 

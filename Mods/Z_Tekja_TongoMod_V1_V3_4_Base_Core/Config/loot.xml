@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raiz>
 
+	<!-- INCREASED LOOT FOR SECRET STASH -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupHiddenStash']">
+		<item group="groupValuablesExtraLarge" count="1,3"/>
+		<item group="groupAmmoPileLarge" count="2,4"/>
+		<item group="groupQuestFood" count="1,2"/>
+		<item group="groupMedicalCommon" count="1,2"/>
+		<item name="resourceBluePaper" count="20,30" loot_prob_template="med"/>
+		<item name="oldCash" count="200,1500" loot_prob_template="high"/>
+		<item name="casinoCoin" count="100,1000" loot_prob_template="low"/>
+	</append>
+
+	<!-- CHANGE PURSE LOOT -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupPurse02']">
+		<item name="oldCash" count="100,150" loot_prob_template="high"/>
+		<item name="casinoCoin" count="100,150" loot_prob_template="low"/>
+	</append>
+
+	<!-- REMOVE FORGOTEN ELIXIR -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_07']/item[@name='drinkJarGrandpasForgettingElixir']"/>
+	
 	<!-- PLAYER DROPPED BACKPACK -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">11,13</set>
 	
@@ -909,7 +929,17 @@
 
 	</append>
 	
-		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+	
+	<!-- NEW GROUP COINS -->
+	<append xpath="/lootcontainers">
+		<lootgroup name="groupQuestcasinoCoinStartTM" count="all">
+			<item name="casinoCoin" count="500"/>
+		</lootgroup>
+
+	</append>
+	
+	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
 	<!-- NEW GROUPS FOR TONGOMOD QUESTS-->
 	<append xpath="/lootcontainers">
@@ -1700,7 +1730,7 @@
 		</lootcontainer>
 
 
-		<!-- * BOOKS/SCHEMATICS BUNDLE TIPE (A) "LOW" -->
+		<!-- * BOOKS/SCHEMATICS BUNDLE TYPE (A) "LOW" -->
 		<lootgroup name="groupBookSchemTMA01" count="5" >
 
 			<item name="bowsSkillMagazine" count="1" loot_prob_template="high"/>
@@ -1753,7 +1783,7 @@
 			<item group="groupBookSchemTMA"/>
 		</lootcontainer>
 
-		<!-- * BOOKS/SCHEMATICS BUNDLE TIPE (B) "MED" -->
+		<!-- * BOOKS/SCHEMATICS BUNDLE TYPE (B) "MED" -->
 		<lootgroup name="groupBookSchemTMB01" count="5" >
 
 			<item group="skillMagazines" loot_prob_template="medHigh"/>
@@ -1790,7 +1820,7 @@
 			<item group="groupBookSchemTMB"/>
 		</lootcontainer>
 
-		<!-- * BOOKS/SCHEMATICS BUNDLE TIPE (C) "HIGH" -->
+		<!-- * BOOKS/SCHEMATICS BUNDLE TYPE (C) "HIGH" -->
 		<lootgroup name="groupBookSchemTMC01" count="5" >
 
 			<item group="skillMagazines" loot_prob_template="medHigh"/>
