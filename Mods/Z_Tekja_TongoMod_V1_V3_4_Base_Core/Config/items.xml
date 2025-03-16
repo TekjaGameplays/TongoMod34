@@ -4380,6 +4380,7 @@
 			<property name="EconomicValue" value="700"/>
 			<property name="TraderStageTemplate" value="baseTier0"/>
 			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy"/>
 			<property name="Group" value="Ammo/Weapons,Melee Weapons,Herramientas"/>
