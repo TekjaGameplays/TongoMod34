@@ -1,0 +1,207 @@
+<configs>
+	<append xpath="/buffs">
+		
+		<buff name="buffARIsHordeNight" name_key="buffARHordeNightRewardName" description_key="buffARHordeNightRewardDesc" tooltip_key="buffARHordeNightRewardTooltip" icon="ui_game_symbol_treasure" icon_color="0,128,0" remove_on_death="true" icon_blink="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="1"/>
+			<effect_group />
+		</buff>
+		
+		<buff name="buffARHordeNightRewardCompleteText" name_key="buffARHordeNightRewardCompleteName" tooltip_key="buffARHordeNightRewardCompleteTooltip" description_key="buffARHordeNightRewardCompleteDesc" icon="ui_game_symbol_treasure" icon_color="0,128,0">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="twitch_celebrate" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARIsHordeNight" />
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffARGiveHordeNightReward" />
+			</effect_group>
+		</buff>
+		
+		<buff name="buffARGiveHordeNightReward" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="2"/>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARHordeNightRewardCompleteText" />				
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="BloodmoonHordeReward" />
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARGiveHordeNightReward" />
+			</effect_group>
+		</buff>
+		
+		<buff name="buffARGiveHordeNightRewardDead" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="2"/>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="attribute_loser" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARIsHordeNight" />
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffARGiveHordeNightRewardDead" />
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM01" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="harvest_animal" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM01" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM02" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="spideralert" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM02" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM03" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="glassdestroy" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM03" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM04" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="traderneutralcough" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM04" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM05" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="rustle" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM05" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM06" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="wolfsense" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM06" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM07" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="avalanche" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM07" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM08" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="hulkvomitattack" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM08" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM09" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombiefemalealert" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM09" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM10" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="close_shutters_metal" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM10" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM11" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="door_wood_open" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM11" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM12" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="stonehitglass" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM12" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM13" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombiemalealert" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM13" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM14" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM14" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM15" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="gib" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM15" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM16" remove_on_death="true" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombiefemalescoutalert" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM16" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM17" remove_on_death="true" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="door_metal_open" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM17" />				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffSM18" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>			
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="breakleg" play_in_head="true" delay="0" />				
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffSM18" />				
+			</effect_group>
+		</buff>
+		
+	</append>
+</configs>
