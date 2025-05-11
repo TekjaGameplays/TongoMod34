@@ -86,6 +86,7 @@
 
 	<!-- MODS -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modGunTriggerGroupOneTMSchematic" count="1"/>
 		<item name="modSniperwolfBraceletTMSchematic" count="1"/>
 		<item name="modRagnarBraceletTMSchematic" count="1"/>
 		<item name="modChopperBraceletTMSchematic" count="1"/>
@@ -273,6 +274,7 @@
 
 	<!-- MODS (TONGOMOD T1 ~ T2) -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMods']">
+		<item name="modGunTriggerGroupOneTM"/>
 		<item name="modSniperwolfBraceletTM"/>
 		<item name="modRagnarBraceletTM"/>
 		<item name="modChopperBraceletTM"/>
@@ -307,6 +309,7 @@
 		<item name="resourceGrapheneTM" count="3,20"/>
 		<item name="resourceAcid" count="1,5"/>
 		<item name="questLetterTM" count="1"/>
+		<ingredient name="resourceFeather" count="200,500"/>
 	</append>
 
 

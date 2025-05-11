@@ -1050,15 +1050,23 @@
 			<ingredient name="resourceBluePaper" count="15"/>
 		</recipe>
 
-		<recipe name="modVehicleReserveFuelTankSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
-			<ingredient name="resourceBluePaper" count="15"/>
-		</recipe>
-
 		<recipe name="modVehicleFuelSaverSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
 			<ingredient name="resourceBluePaper" count="15"/>
 		</recipe>
 
 		<recipe name="modVehicleOffRoadHeadlightsSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="15"/>
+		</recipe>
+
+		<recipe name="modVehicleReserveFuelTankSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="15"/>
+		</recipe>
+
+		<recipe name="modVehiclePlowSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
+			<ingredient name="resourceBluePaper" count="15"/>
+		</recipe>
+
+		<recipe name="modVehicleArmorSchematic" count="1" craft_time="25" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
 			<ingredient name="resourceBluePaper" count="15"/>
 		</recipe>
 
@@ -2106,31 +2114,36 @@
 		
 		<!-- *** MAKINA OCHEMI-STATION (science machine) -->
 		<!-- * MEDIC -->
-		<recipe name="medicalFirstAidBandageTM" count="1" craft_time="10" craft_area="MKOchemi" tags="learnable,perkPhysician">
+		<!--<recipe name="medicalFirstAidBandageTM" count="1" craft_time="10" craft_area="MKOchemi" tags="learnable,perkPhysician">-->
+		<recipe name="medicalFirstAidBandageTM" count="1" craft_time="10"  tags="learnable,perkPhysician">
 			<ingredient name="medicalAlcoholTM" count="1"/>
 			<ingredient name="medicalBandage" count="1"/>
 		</recipe>
 
 		<recipe name="medicalFirstAidKitTM" count="1" craft_time="30" craft_area="MKOchemi" tags="learnable,perkPhysician">
-			<ingredient name="medicalAlcoholTM" count="1"/>
+			<!--<ingredient name="medicalAlcoholTM" count="1"/>-->
+			<ingredient name="drinkRomulanBeerTM" count="2"/>
 			<ingredient name="medicalFirstAidBandageTM" count="2"/>
 			<ingredient name="medicalBloodBag" count="2"/>
-			<ingredient name="foodCropGraceCorn" count="1"/>
+			<ingredient name="foodCropGraceCorn" count="10"/>
+			<ingredient name="resourceGrapheneTM" count="10"/>
 		</recipe>
 
 		<recipe name="drugVitamins" count="1" craft_time="300" craft_area="MKOchemi" tags="learnable,perkPhysician" craft_tool="toolBeaker">
-			<ingredient name="medicalAlcoholTM" count="2"/>
+			<!--<ingredient name="medicalAlcoholTM" count="2"/>-->
+			<ingredient name="foodCropMushrooms" count="10"/>
 			<ingredient name="resourcePotassiumNitratePowder" count="40"/>
 			<ingredient name="foodCropGraceCorn" count="1"/>
-			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<!--<ingredient name="foodCropYuccaFruit" count="2"/>-->
 			<ingredient name="resourceBiomassTM" count="1"/>
 		</recipe>
 
 		<recipe name="drugPainkillers" count="1" craft_time="300" craft_area="MKOchemi" tags="learnable,perkPhysician" craft_tool="toolBeaker">
-			<ingredient name="medicalAlcoholTM" count="2"/>
+			<!--<ingredient name="medicalAlcoholTM" count="2"/>-->
+			<ingredient name="foodCropMushrooms" count="10"/>
 			<ingredient name="resourcePotassiumNitratePowder" count="40"/>
 			<ingredient name="medicalAloeCream" count="3"/>
-			<ingredient name="foodCropMushrooms" count="2"/>
+			<!--<ingredient name="foodCropMushrooms" count="2"/>-->
 			<ingredient name="resourceBiomassTM" count="1"/>
 		</recipe>
 
@@ -2224,11 +2237,13 @@
 
 		<!-- * EXTRA -->
 		<recipe name="medicalBloodBag" count="1" craft_time="100" craft_area="MKOchemi" tags="learnable,perkPhysician" craft_tool="toolBeaker">
-			<ingredient name="medicalAlcoholTM" count="2"/>
+			<!--<ingredient name="medicalAlcoholTM" count="2"/>-->
+			<ingredient name="foodCropMushrooms" count="10"/>
 			<ingredient name="resourceScrapPolymers" count="10"/>
+			<!--<ingredient name="resourceBiomassTM" count="1"/>-->
 			<ingredient name="resourceBiomassTM" count="1"/>
 			<ingredient name="resourceAcid" count="1"/>
-			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="foodRawMeat" count="5"/>
 		</recipe>
 
 		<recipe name="resourceTurd" count="1" craft_time="60" craft_area="MKOchemi" craft_tool="toolBeaker" tags="perkPhysician" >
@@ -2269,7 +2284,6 @@
 			<ingredient name="resourceCompost" count="1"/>
 			<ingredient name="medicalAlcoholTM" count="1"/>
 		</recipe>
-
 
 		<recipe name="questWaterBarrelTMBundle" count="1" craft_time="10" craft_area="MKOchemi" craft_tool="itemToolKryptonite" tags="learnable" >
 			<ingredient name="resourceScrapPolymers" count="100"/>
@@ -3516,6 +3530,41 @@
 
 		<recipe name="modArmorQuadStoragePocketSchematic" count="1" craft_time="2" craft_area="MKLibros" craft_tool="itemToolDonQuixote" tags="workingLibros">
 			<ingredient name="resourceBluePaper" count="300"/>
+		</recipe>
+
+
+		<!-- * NEW RECIPES 3.4.18 -->
+		
+		<!-- * arrow and bolt by paper -->
+		<recipe name="ammoArrowStone" count="1" >
+			<ingredient name="resourcePaper" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceRockSmall" count="1"/>
+		</recipe>
+
+		<recipe name="ammoArrowIron" count="1" >
+			<ingredient name="resourcePaper" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceArrowHeadIron" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltStone" count="1" >
+			<ingredient name="resourcePaper" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceRockSmall" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltIron" count="1" >
+			<ingredient name="resourcePaper" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceArrowHeadIron" count="1"/>
+		</recipe>
+
+		<!-- * mod -->
+		<recipe name="modGunTriggerGroupOneTM" count="1" craft_time="100" craft_area="MKDysmantle" craft_tool="itemToolSonicScrewdiver" tags="learnable,workingDysmantle">
+			<ingredient name="resourceGlue" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+			<ingredient name="resourceScrapIron" count="10"/>
 		</recipe>
 		
 

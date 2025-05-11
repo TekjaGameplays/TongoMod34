@@ -7,32 +7,32 @@
 
 		<!-- *** WILD_GAME_FOREST -->
 		<entitygroup name="WildGameForest">
-			animalRabbit, 28
-			animalChicken, 28
-			animalDoe, 13
-			animalStag, 13
-			animalBoar, 3
-			animalCoyote, 3
+			animalRabbit, 30
+			animalChicken, 30
+			animalDoe, 15
+			animalStag, 15
+			animalBoar, 5
+			animalCoyote, 5
 
 			<!-- TM ANIMALS -->
-			animalChickenHostileIrradiationElite, 4
+			<!--animalChickenHostileIrradiationElite, 4
 			animalChickenHostileElectricElite, 4
-			animalChickenHostileFireElite, 4
+			animalChickenHostileFireElite, 4-->
 		</entitygroup>
 
 		<!-- *** WILD_GAME_FOREST_NIGHT -->
 		<entitygroup name="WildGameForestNight">
-			animalRabbit, 28
-			animalChicken, 28
-			animalDoe, 13
-			animalStag, 13
-			animalBoar, 3
-			animalCoyote, 3
+			animalRabbit, 30
+			animalChicken, 30
+			animalDoe, 15
+			animalStag, 15
+			animalBoar, 5
+			animalCoyote, 5
 			
 			<!-- TM ANIMALS -->
-			animalChickenHostileIrradiationElite, 4
+			<!--animalChickenHostileIrradiationElite, 4
 			animalChickenHostileElectricElite, 4
-			animalChickenHostileFireElite, 4
+			animalChickenHostileFireElite, 4-->
 		</entitygroup>
 
 		<!-- *** ENEMY_ANIMAL_FOREST -->

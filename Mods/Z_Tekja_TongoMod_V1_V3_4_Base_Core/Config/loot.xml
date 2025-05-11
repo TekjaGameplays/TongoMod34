@@ -19,7 +19,7 @@
 	</append>
 
 	<!-- REMOVE FORGOTEN ELIXIR -->
-	<remove xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_07']/item[@name='drinkJarGrandpasForgettingElixir']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_07']/item[@name='drinkJarGrandpasForgettingElixir']"/>-->
 	
 	<!-- PLAYER DROPPED BACKPACK -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">11,13</set>
@@ -80,6 +80,61 @@
 		<item name="meleeToolRepairMegaNailgunTM" count="1" loot_prob_template="Low"/>
 		<item name="meleeToolSalvageMegaImpactDriverTM" count="1" loot_prob_template="Low"/>
 	</append>-->
+
+	<!-- only for scrap -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupArmorParts']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate01']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate02']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate03']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupLaundry01']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupLaundry02']">
+		<item name="apparelDenimPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelDenimShortsPants" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelFlannelShirt" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelOveralls" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTankTop" count="1,2" loot_prob_template="medLow"/>
+		<item name="apparelTShirtZU" count="1,2" loot_prob_template="medLow"/>
+	</append>
 
 	<!-- INCLUDE TONGO TOOLS IN LOOT -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT1']">
@@ -248,6 +303,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
 		<item name="resourceBluePaper" count="1,2" loot_prob_template="med"/>
 		
+		<item name="modGunTriggerGroupOneTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modSniperwolfBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modRagnarBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modChopperBraceletTMSchematic" count="1" loot_prob_template="med"/>
@@ -284,6 +340,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
 		<item name="resourceBluePaper" count="3,6" loot_prob_template="med"/>
 
+		<item name="modGunTriggerGroupOneTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modSniperwolfBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modRagnarBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modChopperBraceletTMSchematic" count="1" loot_prob_template="med"/>
@@ -328,6 +385,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
 		<item name="resourceBluePaper" count="4,9" loot_prob_template="med"/>
 
+		<item name="modGunTriggerGroupOneTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modSniperwolfBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modRagnarBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modChopperBraceletTMSchematic" count="1" loot_prob_template="med"/>
@@ -354,6 +412,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">
 		<item name="resourceBluePaper" count="10,20" loot_prob_template="med"/>
 
+		<item name="modGunTriggerGroupOneTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modSniperwolfBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modRagnarBraceletTMSchematic" count="1" loot_prob_template="med"/>
 		<item name="modChopperBraceletTMSchematic" count="1" loot_prob_template="med"/>
@@ -399,6 +458,7 @@
 
 	<!-- MODS LOOT -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupArmorModsScaled']">
+		<item name="modGunTriggerGroupOneTM" count="1" loot_prob_template="medLow"/>
 		<item name="modSniperwolfBraceletTM" count="1" loot_prob_template="medLow"/>
 		<item name="modRagnarBraceletTM" count="1" loot_prob_template="medLow"/>
 		<item name="modChopperBraceletTM" count="1" loot_prob_template="medLow"/>
@@ -416,6 +476,7 @@
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='modArmorT1']">
+		<item name="modGunTriggerGroupOneTM"/>
 		<item name="modSniperwolfBraceletTM"/>
 		<item name="modRagnarBraceletTM"/>
 		<item name="modChopperBraceletTM"/>
@@ -1001,7 +1062,7 @@
 			<item name="foodCropMushrooms" count="2,10"/>
 			<item name="foodCropBlueberries" count="2,10"/>
 			<item name="foodRawMeat" count="1,5"/>
-			<item name="cntShippingCrateShamway" count="1"/>
+			<!--<item name="cntShippingCrateShamway" count="1"/>-->
 
 			<item name="itemToolDonQuixote" count="1"/>
 		</lootgroup>
@@ -1033,7 +1094,7 @@
 			<item name="drugSteroids" count="1,2"/>
 			<item name="drugPainkillers" count="1,2"/>
 			<item name="drugVitamins" count="1,2"/>
-			<item name="cntShippingCrateLabEquipment" count="1"/>
+			<!--<item name="cntShippingCrateLabEquipment" count="1"/>-->
 
 			<item name="itemToolKryptonite" count="1"/>
 			<item name="itemToolFluxCapacitor" count="1"/>
@@ -1067,7 +1128,7 @@
 			<item name="riflesSkillMagazine" count="2,4"/>
 			<item name="armorSkillMagazine" count="2,4"/>
 			<item name="workstationSkillMagazine" count="2,4"/>
-			<item name="cntShippingCrateSavageCountry" count="1"/>
+			<!--<item name="cntShippingCrateSavageCountry" count="1"/>-->
 
 			<item name="itemToolLonginusSpear" count="1"/>
 		</lootgroup>
@@ -1101,7 +1162,7 @@
 			<item name="resourceForgedIron" count="10,20"/>
 			<item name="resourceForgedSteel" count="2,10"/>
 			<item name="resourceGrapheneTM" count="1,5"/>
-			<item name="cntShippingCrateWorkingStiffs" count="1"/>
+			<!--<item name="cntShippingCrateWorkingStiffs" count="1"/>-->
 
 			<item name="itemToolSonicScrewdiver" count="1"/>
 			<item name="itemToolLonginusSpear" count="1"/>
@@ -1138,8 +1199,8 @@
 			<item name="resourceMechanicalParts" count="10,20"/>
 			<item name="resourceElectricParts" count="10,20"/>
 			<item name="resourceSpring" count="10,20"/>
-			<item name="cntShippingCrateCarParts" count="1"/>
-			<item name="cntShippingCrateMoPowerElectronics" count="1"/>
+			<!--<item name="cntShippingCrateCarParts" count="1"/>-->
+			<!--<item name="cntShippingCrateMoPowerElectronics" count="1"/>-->
 
 			<item name="itemToolSonicScrewdiver" count="1"/>
 			<item name="itemToolLonginusSpear" count="1"/>
@@ -1185,9 +1246,9 @@
 			<item name="ammoBundleArrowIron" count="1"/>
 			<item name="ammoBundleCrossbowBoltIron" count="1"/>
 			<item name="questRewardAmmoCraftingBundle" count="1"/>
-			<item name="cntShippingCrateBookstore" count="1"/>
-			<item name="cntShippingCrateShotgunMessiah" count="1"/>
-			<item name="cntShippingCrateHero" count="1"/>
+			<!--<item name="cntShippingCrateBookstore" count="1"/>-->
+			<!--<item name="cntShippingCrateShotgunMessiah" count="1"/>-->
+			<!--<item name="cntShippingCrateHero" count="1"/>-->
 
 			<item name="itemToolLonginusSpear" count="1"/>
 			<item name="itemToolSonicScrewdiver" count="1"/>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raiz>
 
+	<!-- CHANGE ICONS FOR BOOKS READ / UNREAD -->
+
+	<set xpath="items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']/@value">xCircle</set>
+	<set xpath="items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']/@value">checkCircle</set>
+	
+
 	<!-- * ADD NEW PROPERTYS TO VANILLA ITEMS ***-->
 	<append xpath="/items/item[@name='foodRottingFlesh']/property[@name='Group']/@value">,OchemiSci</append>
 	<append xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Group']/@value">,Quimics,Ochem,OchemiSci</append>
@@ -1799,7 +1805,6 @@
 		<item name="medicalAlcoholTM">
 			<property name="CustomIcon" value="medicalAlcohol01"/>
 			<property name="DescriptionKey" value="medicalAlcoholTMDesc"/>
-			<property name="UnlockedBy" value="medicalAlcoholTMSchematic"/>
 			<property name="DisplayType" value="waterDysentery"/>
 			<property name="HoldType" value="3"/>
 			<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
@@ -1809,6 +1814,7 @@
 			<property name="Weight" value="10"/>
 			<property name="EconomicValue" value="15"/>
 			<property name="CraftingIngredientTime" value="15"/>
+			<property name="UnlockedBy" value="medicalAlcoholTMSchematic"/>
 			<property class="Action0">
 				<property name="Class" value="Eat"/>
 				<property name="Delay" value="1"/>
@@ -4478,7 +4484,7 @@
 					<requirement name="HasBuff" buff="buffInjuryAbrasion"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="40"/>
 
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medRegHealthIncSpeed" operation="set" value="@medicRegHealthIncreaseSpeed"/>
 				<display_value name="foodHealthAmount" value="30"/>
@@ -4582,24 +4588,67 @@
 				<property name="Sound_start" value="player_firstAidKit"/>
 			</property>
 
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="healAbrasionMult" operation="set" value="5"/>
+			<effect_group tiered="false">	
 
-				<display_value name="dhealAbrasionMult" value="5"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInjuryAbrasionTreated">
-					<requirement name="HasBuff" buff="buffInjuryAbrasion"/>
-				</triggered_effect>
+				
+				<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+				<!-- bufos para el mismo jugador -->
+				<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->				
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="30"/>
+				<!-- cura pierna rota o tratada (tablilla o yeso) -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLegSplinted"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLegCast"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLegSprained"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLegBroken"/>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medRegHealthIncSpeed" operation="set" value="@medicRegHealthIncreaseSpeed"/>
-				<display_value name="foodHealthAmount" value="180"/>
+				<!-- cura brazo roto o tratado (tablilla o yeso) -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmSplinted"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmCast"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmSprained"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmBroken"/>
+
+				<!-- cura la fatiga -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffFatigued"/>
+				<!--<display_value name="dStopsWeakness" value="1"/>-->
+
+				<!-- cura la abrasion o tratado -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryAbrasion"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryAbrasionTreated"/>
+				<display_value name="dhealAbrasionMult" value="4"/>
+				
+				<!-- cura la conmocion -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryConcussion"/>
+
+				<!-- cura la disenteria y tratada -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysenteryMain"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysenteryAddCure"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysenteryCureDisplay"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysentery01Untreated"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysentery01GetBetter"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysentery01UntreatedDiarrhea"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffDysentery01GetBetterDiarrhea"/>
+				<!--<display_value name="dDiseaseResist" value="1"/>-->
+
+				<!-- cura infeccion e infeccion tratada -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInfectionMain"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInfectionCatch"/>
+
+				<!-- cantidad de salud para regeneracion -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="200"/>
+				<display_value name="foodHealthAmount" value="200"/>
+
+				<!-- bufo de consumibles -->
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+				<!-- cura de sangrado -->
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/>
 				<display_value name="dStopsBleeding" value="1"/>
+
+				<!-- cura de laceracion -->
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLaceration"/>
 				<display_value name="dStopsLaceration" value="1"/>
 
+				<!-- cantidad de salud recuperada instantanea por nivel -->
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="60">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="0"/>
 				</triggered_effect>
@@ -4612,73 +4661,133 @@
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="120">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="150">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="150">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="200">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="healAbrasionMult" operation="set" value="4"/>
 
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medicalRegHealthAmount" operation="add" value="180"/>
+				<!-- exp -->
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="300"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="120">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="30">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="800">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="2000">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
+					</triggered_effect>
+				</effect_group>
 
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medRegHealthIncSpeed" operation="set" value="2">
+
+				<display_value name="dDiseaseResist" value="1"/>
+				<display_value name="dStopsWeakness" value="1"/>
+
+
+
+				<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+				<!-- bufos para otro jugador -->
+				<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+				<!-- cura pierna rota o tratada (tablilla o yeso) -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffLegSplinted"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffLegCast"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffLegSprained"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffLegBroken"/>
+
+				<!-- cura brazo roto o tratado (tablilla o yeso) -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffArmSplinted"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffArmCast"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffArmSprained"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffArmBroken"/>
+
+				<!-- cura la fatiga -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffFatigued"/>
+
+				<!-- cura la abrasion o tratado -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInjuryAbrasion"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInjuryAbrasionTreated"/>
+
+				<!-- cura la conmocion -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInjuryConcussion"/>
+
+				<!-- cura la disenteria y tratada -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysenteryMain"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysenteryAddCure"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysenteryCureDisplay"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysentery01Untreated"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysentery01GetBetter"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysentery01UntreatedDiarrhea"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffDysentery01GetBetterDiarrhea"/>
+
+				<!-- cura infeccion e infeccion tratada -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInfectionMain"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInfectionCatch"/>
+
+				<!-- cantidad de salud para regeneracion -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="200"/>
+
+				<!-- bufo de consumibles -->
+				<!--<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>-->
+
+				<!-- cura de sangrado -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/>
+				<!--<display_value name="dStopsBleeding" value="1"/>-->
+
+				<!-- cura de laceracion -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" buff="buffLaceration"/>
+				<!--<display_value name="dStopsLaceration" value="1"/>-->
+
+				<!-- cantidad de salud recuperada instantanea por nivel -->
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="60">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="0"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medRegHealthIncSpeed" operation="set" value="2.5">
+
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="80">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medRegHealthIncSpeed" operation="set" value="2.8">
+
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="100">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medRegHealthIncSpeed" operation="set" value="3.1">
+
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="150">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="medRegHealthIncSpeed" operation="set" value="3.5">
+
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="200">
 					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="buffProcessConsumables"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" target="other" buff="buffInjuryBleeding"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" target="other" buff="buffLaceration"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="300"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="buffInjuryAbrasionTreated">
-					<requirement name="HasBuff" buff="buffInjuryAbrasion"/>
-				</triggered_effect>
-			</effect_group>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="300"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="120">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="180">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="240">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="300">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
-				</triggered_effect>
-			</effect_group>
 
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="300"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="120">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="180">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="240">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
-				</triggered_effect>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="300">
-					<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
-				</triggered_effect>
+				<!-- exp -->
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="300"/>
+					<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="120">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="300">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="800">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="2000">
+						<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
+					</triggered_effect>
+				</effect_group>
+
+
 			</effect_group>
+		
 		</item>
 
 
@@ -9653,6 +9762,113 @@
 		</item>
 		
 		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+		<!-- * test new mod schematic -->
+		<item name="modGunTriggerGroupOneTMSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunTriggerGroupOneTM"/>
+			<property name="Unlocks" value="modGunTriggerGroupOneTM"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupOneTM" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+		<!-- * test clothes to scrap -->
+		<item name="apparelDenimPants">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelDenimPantsDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+		<item name="apparelDenimShortsPants">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelDenimPantsDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+		<item name="apparelFlannelShirt">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelLongShirtGroupDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+		<item name="apparelOveralls">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelDenimPantsDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+		<item name="apparelTankTop">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelTankTopDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+		<item name="apparelTShirtZU">
+			<property name="Stacknumber" value="100"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="Weight" value="25"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="TraderStageTemplate" value="armorTier1"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="apparelTShirtZUDesc"/>
+			<property name="Group" value="Clothing,TCClothing"/>
+		</item>
+
+	
+
+	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+		
+		
+		<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+		
 
 	</append>
 
