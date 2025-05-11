@@ -1,0 +1,28 @@
+{
+  "ChatColor": "[FFCC00]",
+  "ServerName": "[TM - ST]",
+  "Debug": false,
+  "BloodMoon": {
+	"ChatColor": "[FF0000]",
+    "Enabled": true,
+    "Delay": 60
+  },
+  "BloodMoonReward": {
+	"ChatColor": "[FF0000]",
+    "Enabled": true,
+  },
+  "ScoutHorde": {
+	"ChatColor": "[FFC300]",
+    "Enabled": true,
+	"Delay": 60,
+	"MinZombie": 10,
+	"MaxZombie": 20,
+	"ShowMessage": true,
+	"PlaySound": true,
+	"Sound": "horde_spawn_warning"
+  },
+  "SoundMachiene": {
+    "Enabled": true,
+	"Delay": 60,
+  },
+}
