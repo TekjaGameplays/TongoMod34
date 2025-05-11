@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz>
+
+
+	<!-- CHANGE ICONS FOR BOOKS READ / UNREAD -->
+
+	<!--<set xpath="items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']/@value">xCircle</set>
+	<set xpath="items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']/@value">checkCircle</set>-->
+		
+
+	
+</raiz>
