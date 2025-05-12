@@ -201,6 +201,10 @@
 		<recipe name="resourcePotassiumNitratePowder" craft_time="100" count="100" craft_area="cementMixer" tags="cementMixerCrafting">
 			<ingredient name="resourceRockSmall" count="300"/>
 		</recipe>
+		
+		<recipe name="resourceOilShale" craft_time="100" count="100" craft_area="cementMixer" tags="cementMixerCrafting">
+			<ingredient name="resourceRockSmall" count="300"/>
+		</recipe>
 
 		<recipe name="resourceGraphite" count="100" craft_time="100" craft_area="cementMixer" tags="cementMixerCrafting">
 			<ingredient name="resourceRockSmall" count="300"/>
