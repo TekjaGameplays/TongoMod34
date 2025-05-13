@@ -371,7 +371,7 @@
 		</item_modifier>
 
 		<!-- test new mod 1x1 -->
-		<item_modifier name="modGunTriggerGroupOneTM" installable_tags="firingMode" modifier_tags="trigger" blocked_tags="noMods" type="attachment">
+		<item_modifier name="modGunTriggerGroupOneTM" installable_tags="gun" modifier_tags="trigger" blocked_tags="noMods" type="attachment">
 			<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
 			<property name="UnlockedBy" value="modGunTriggerGroupOneTMSchematic"/>
 			<property name="TraderStageTemplate" value="modsTier1"/>
@@ -399,7 +399,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
 
 				<!-- incrase damage -->
-				<passive_effect name="EntityDamage" operation="perc_add" value="50" tags="perkRangedWeapons"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
 				
 
 			</effect_group>
