@@ -399,7 +399,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
 
 				<!-- incrase damage -->
-				<passive_effect name="EntityDamage" operation="perc_add" value="20" tags="perkRangedWeapons"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="50" tags="perkRangedWeapons"/>
 				
 
 			</effect_group>
