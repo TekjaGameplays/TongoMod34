@@ -2072,12 +2072,12 @@
 		</recipe>
 
 		<!-- * QUIMICS -->
-		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="oven" craft_tool="toolBeaker">
+		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="learnable,oven" craft_tool="toolBeaker">
 			<ingredient name="drinkJarBoiledWater" count="2"/>
 			<ingredient name="foodCropPotato" count="2"/>
 		</recipe>
 
-		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="oven" craft_tool="toolBeaker">
+		<recipe name="medicalAlcoholTM" count="1" craft_time="50" craft_area="MKOven" tags="learnable,oven" craft_tool="toolBeaker">
 			<ingredient name="drinkJarBoiledWater" count="2"/>
 			<ingredient name="foodCropCorn" count="2"/>
 		</recipe>
